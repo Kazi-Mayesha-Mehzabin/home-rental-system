@@ -19,5 +19,5 @@ Route::get('/Mayesha', function () {
     return view('welcome');
 });
 
-Route::get('/myportfolio', [HomepageController:: class, 'viewHomePage'] );
+
 Route::get('/', [HomepageController:: class, 'viewIndexPage'] );

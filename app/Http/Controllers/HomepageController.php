@@ -9,12 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 
 class HomepageController extends Controller
 {
-    public function viewHomePage(){
-      
-        return view ('myportfolio');
-
-
-    }
+   
     public function viewIndexPage(){
       
         return view ('index');
