@@ -14,16 +14,16 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="/css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         </div>
         <div class="header-configure-area">
             <div class="language-option">
-                <img src="img/flag.jpg" alt="">
+                <img src="assets/img/flag.jpg" alt="">
                 <span>EN <i class="fa fa-angle-down"></i></span>
                 <div class="flag-dropdown">
                     <ul>
@@ -109,7 +109,7 @@
                             </div>
                             <a href="#" class="bk-btn">Booking Now</a>
                             <div class="language-option">
-                                <img src="img/flag.jpg" alt="">
+                                <img src="assets/img/flag.jpg" alt="">
                                 <span>EN <i class="fa fa-angle-down"></i></span>
                                 <div class="flag-dropdown">
                                     <ul>
@@ -129,7 +129,7 @@
                     <div class="col-lg-2">
                         <div class="logo">
                             <a href="./index.html">
-                                <img src="img/logo.png" alt="">
+                                <img src="assets/img/logo.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -210,9 +210,9 @@
             </div>
         </div>
         <div class="hero-slider owl-carousel">
-            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg"></div>
-            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg"></div>
-            <div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="assets/img/hero/hero-1.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="assets/img/hero/hero-2.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="assets/img/hero/hero-3.jpg"></div>
         </div>
     </section>
     <!-- Hero Section End -->
@@ -239,10 +239,10 @@
                     <div class="about-pic">
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="img/about/about-1.jpg" alt="">
+                                <img src="assets/img/about/about-1.jpg" alt="">
                             </div>
                             <div class="col-sm-6">
-                                <img src="img/about/about-2.jpg" alt="">
+                                <img src="assets/img/about/about-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
             <div class="hp-room-items">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="assets/img/room/room-b1.jpg">
                             <div class="hr-text">
                                 <h3>Double Room</h3>
                                 <h2>199$<span>/Pernight</span></h2>
@@ -352,7 +352,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b2.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="assets/img/room/room-b2.jpg">
                             <div class="hr-text">
                                 <h3>Premium King Room</h3>
                                 <h2>159$<span>/Pernight</span></h2>
@@ -381,7 +381,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b3.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="assets/img/room/room-b3.jpg">
                             <div class="hr-text">
                                 <h3>Deluxe Room</h3>
                                 <h2>198$<span>/Pernight</span></h2>
@@ -410,7 +410,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b4.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="assets/img/room/room-b4.jpg">
                             <div class="hr-text">
                                 <h3>Family Room</h3>
                                 <h2>299$<span>/Pernight</span></h2>
@@ -473,7 +473,7 @@
                                 </div>
                                 <h5> - Alexander Vasquez</h5>
                             </div>
-                            <img src="img/testimonial-logo.png" alt="">
+                            <img src="assets/img/testimonial-logo.png" alt="">
                         </div>
                         <div class="ts-item">
                             <p>After a construction project took longer than expected, my husband, my daughter and I
@@ -490,7 +490,7 @@
                                 </div>
                                 <h5> - Alexander Vasquez</h5>
                             </div>
-                            <img src="img/testimonial-logo.png" alt="">
+                            <img src="assets/img/testimonial-logo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -512,7 +512,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-1.jpg">
+                    <div class="blog-item set-bg" data-setbg="assets/img/blog/blog-1.jpg">
                         <div class="bi-text">
                             <span class="b-tag">Travel Trip</span>
                             <h4><a href="#">Tremblant In Canada</a></h4>
@@ -521,7 +521,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-2.jpg">
+                    <div class="blog-item set-bg" data-setbg="assets/img/blog/blog-2.jpg">
                         <div class="bi-text">
                             <span class="b-tag">Camping</span>
                             <h4><a href="#">Choosing A Static Caravan</a></h4>
@@ -530,7 +530,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-3.jpg">
+                    <div class="blog-item set-bg" data-setbg="assets/img/blog/blog-3.jpg">
                         <div class="bi-text">
                             <span class="b-tag">Event</span>
                             <h4><a href="#">Copper Canyon</a></h4>
@@ -539,7 +539,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-wide.jpg">
+                    <div class="blog-item small-size set-bg" data-setbg="assets/img/blog/blog-wide.jpg">
                         <div class="bi-text">
                             <span class="b-tag">Event</span>
                             <h4><a href="#">Trip To Iqaluit In Nunavut A Canadian Arctic City</a></h4>
@@ -548,7 +548,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-10.jpg">
+                    <div class="blog-item small-size set-bg" data-setbg="assets/img/blog/blog-10.jpg">
                         <div class="bi-text">
                             <span class="b-tag">Travel</span>
                             <h4><a href="#">Traveling To Barcelona</a></h4>
@@ -570,7 +570,7 @@
                         <div class="ft-about">
                             <div class="logo">
                                 <a href="#">
-                                    <img src="img/footer-logo.png" alt="">
+                                    <img src="assets/img/footer-logo.png" alt="">
                                 </a>
                             </div>
                             <p>We inspire and reach millions of travelers<br /> across 90 local websites</p>
@@ -640,14 +640,14 @@
     <!-- Search model end -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

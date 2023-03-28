@@ -20,4 +20,4 @@ Route::get('/Mayesha', function () {
 });
 
 Route::get('/myportfolio', [HomepageController:: class, 'viewHomePage'] );
-Route::get('/index', [HomepageController:: class, 'viewIndexPage'] );
+Route::get('/', [HomepageController:: class, 'viewIndexPage'] );
