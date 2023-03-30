@@ -190,10 +190,7 @@
         </div>
       </div>
     </section>
-    <!-- ================ welcome section end ================= --> 
-
-
-    <!-- ================ Explore section start ================= -->
+   
     <section class="section-margin">
       <div class="container">
         <div class="section-intro text-center pb-80px">
