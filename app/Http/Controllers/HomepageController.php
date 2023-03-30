@@ -12,7 +12,7 @@ class HomepageController extends Controller
    
     public function viewIndexPage(){
       
-        return view ('index');
+        return view ('index2');
 
 
     }
