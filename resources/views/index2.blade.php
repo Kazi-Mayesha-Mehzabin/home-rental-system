@@ -95,7 +95,7 @@
       <div class="container h-100">
         <div class="home-banner">
           <div class="text-center">
-            <h4>See What a Difference a stay makes</h4>
+            <h4>Where Luxury Meets Convenience</h4>
             <h1>Home <em> </em> Rent</h1>
             <a class="button home-banner-btn" href="#">Search Now</a>
           </div>
@@ -181,9 +181,9 @@
           </div>
           <div class="col-lg-7">
             <div class="welcome-content">
-              <h2 class="mb-4"><span class="d-block">Welcome</span> to Home Rental System</h2>
-              <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed moved firmament gathered </p>
-              <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed</p>
+              <h2 class="mb-4"><span class="d-block">Welcome</span>to Sea Palace Home Rental</h2>
+              <p>Whether you're a renter in search of the perfect place to call home, or an owner looking to list your property, you're in the right place! Our platform is designed to connect renters with the ideal rental property, while providing owners with a convenient way to manage their listings.</p>
+              <p>We're committed to helping you find the perfect rental property or tenant and to making your rental experience as smooth as possible. We can't wait to help you find your perfect match and make your rental dreams a reality!</p>
               <a class="button button--active home-banner-btn mt-4" href="#">Learn More</a>
             </div>
           </div>
@@ -195,9 +195,9 @@
       <div class="container">
         <div class="section-intro text-center pb-80px">
           <div class="section-intro__style">
-            <img src="img/home/bed-icon.png" alt="">
+            <img src="img/home/house-icon.png" height="50px" alt="">
           </div>
-          <h2>Explore Our Rooms</h2>
+          <h2>Explore Our Featured Homes</h2>
         </div>
 
         <div class="row">
@@ -208,9 +208,9 @@
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
-                <h4 class="card-explore__title"><a href="#">Classic Bed Room</a></h4>
+                <h4 class="card-explore__title"><a href="#">Condo</a></h4>
                  <h6>Mohammadpur, Dhaka</h6>
-                <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+                <p>A comfortable 1100 square feet condo in the heart of Mohammadpur, with two beds and two baths.</p>
                
                 <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
@@ -220,13 +220,18 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/home/room1.jpg" alt="">
+                <img class="card-img" src="img/home/room2.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳17,000 <sub>/ Per Month</sub></h3>
-                <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
+                <h4 class="card-explore__title"><a href="#">Condo</a></h4>
                 <h6>Mirpur, Dhaka</h6>
-                <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+                <p>A 1400 square feet condo with a scenic view located in Mirpur, with two beds and three baths.
+                  <!--<ul>
+                    <li><img src="img/home/size.png" alt="size-icon"> 1100 sqft</li>
+                    <li><img src="img/home/bed.png" alt="size-icon"> 3 beds</li>
+                    <li><img src="img/home/bath.png" alt="size-icon"> 4 baths</li>
+                  </ul>--></p>
                 <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
             </div>
@@ -235,13 +240,13 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/home/explore3.png" alt="">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
-                <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                 <h6>Dhanmondi, Dhaka</h6>
-                <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
                 <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
             </div>
