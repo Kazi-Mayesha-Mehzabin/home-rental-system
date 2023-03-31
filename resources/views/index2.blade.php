@@ -204,7 +204,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/home/explore1.png" alt="">
+                <img class="card-img" src="img/gallery/room1.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
@@ -223,10 +223,11 @@
                 <img class="card-img" src="img/home/explore2.png" alt="">
               </div>
               <div class="card-body">
-                <h3 class="card-explore__price">৳17,000 <sub>/ Per Night</sub></h3>
-                <h4 class="card-explore__title"><a href="#">Premium Room</a></h4>
+                <h3 class="card-explore__price">৳17,000 <sub>/ Per Month</sub></h3>
+                <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
+                <h6>Mirpur, Dhaka</h6>
                 <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-                <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -237,10 +238,11 @@
                 <img class="card-img" src="img/home/explore3.png" alt="">
               </div>
               <div class="card-body">
-                <h3 class="card-explore__price">$190.00 <sub>/ Per Night</sub></h3>
+                <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
                 <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
+                <h6>Dhanmondi, Dhaka</h6>
                 <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-                <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>
