@@ -16,4 +16,7 @@ class HomepageController extends Controller
 
 
     }
+    public function goToLoginPage(){
+        return view ('login');
+    }
 }

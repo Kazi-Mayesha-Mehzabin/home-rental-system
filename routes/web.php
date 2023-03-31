@@ -22,3 +22,4 @@ Route::get('/Mayesha', function () {
 
 Route::get('/', [HomepageController:: class, 'viewIndexPage'] );
 Route::get('/index', [HomepageController:: class, 'viewIndexPage'] );
+Route::get('/login2', [HomepageController:: class, 'goToLoginPage'] );

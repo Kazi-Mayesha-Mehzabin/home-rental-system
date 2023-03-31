@@ -204,7 +204,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/gallery/room1.jpg" alt="">
+                <img class="card-img" src="img/home/room1.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
@@ -220,7 +220,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/home/explore2.png" alt="">
+                <img class="card-img" src="img/home/room1.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳17,000 <sub>/ Per Month</sub></h3>
