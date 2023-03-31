@@ -20,6 +20,10 @@ Route::get('/Mayesha', function () {
 });
 
 
-Route::get('/', [HomepageController:: class, 'viewIndexPage'] );
+Route::get('/', [HomepageController:: class, 'viewIndexPage'] ) -> name("index2");
 Route::get('/index', [HomepageController:: class, 'viewIndexPage'] );
 Route::get('/login2', [HomepageController:: class, 'goToLoginPage'] );
+Route::get('/registration-owner', [HomepageController:: class, 'goToOwnerRegistrationPage'] );
+Route::get('/registration-renter', [HomepageController:: class, 'goToRenterRegistrationPage'] );
+Route::get('/login-renter', [HomepageController:: class, 'goToRenterLoginPage'] );
+Route::get('/login-owner', [HomepageController:: class, 'goToOwnerLoginPage'] );

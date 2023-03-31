@@ -19,4 +19,18 @@ class HomepageController extends Controller
     public function goToLoginPage(){
         return view ('login');
     }
+    public function goToOwnerRegistrationPage(){
+        return view ('registration_owner');
+    }
+    public function goToRenterRegistrationPage(){
+        return view ('registration_renter');
+    }
+    public function goToRenterLoginPage(){
+        return view ('login_renter');
+    }
+    public function goToOwnerLoginPage(){
+        return view ('login_owner');
+    }
+    
+    
 }
