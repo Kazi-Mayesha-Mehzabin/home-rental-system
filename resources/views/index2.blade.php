@@ -253,7 +253,7 @@
                     <li><img src="img/home/bath.png" alt="size-icon"> 4 baths</li>
                   </ul>-->
                                 </p>
-                                <a class="card-explore__link" href="#">View Details <i
+                                <a class="card-explore__link" href="{{route('room-details')}}">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
@@ -406,14 +406,14 @@
                     <div class="testi-carousel__item">
                         <div class="media">
                             <div class="testi-carousel__img">
-                                <img src="img/home/testimonial1.png" alt="">
+                                <img height:74px; style="border-radius:50px;" src="img/home/me.jpeg" alt="">
                             </div>
                             <div class="media-body">
                                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum
                                     libero illo repell endus!</p>
                                 <div class="testi-carousel__intro">
                                     <h3>Kazi Mayesha Mehzabin</h3>
-                                    <p>Renter</p>
+                                    <p>Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -422,14 +422,14 @@
                     <div class="testi-carousel__item">
                         <div class="media">
                             <div class="testi-carousel__img">
-                                <img src="img/home/testimonial2.png" alt="">
+                                <img style="border-radius:50px;" src="img/home/sami.jpeg" alt="">
                             </div>
                             <div class="media-body">
                                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum
                                     libero illo repell endus!</p>
                                 <div class="testi-carousel__intro">
                                     <h3>Sami Ibn Rashid</h3>
-                                    <p>Owner</p>
+                                    <p>Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -438,14 +438,14 @@
                     <div class="testi-carousel__item">
                         <div class="media">
                             <div class="testi-carousel__img">
-                                <img src="img/home/testimonial3.png" alt="">
+                                <img style="height:74px; border-radius:50px"src="img/home/faria.jpeg" alt="">
                             </div>
                             <div class="media-body">
                                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum
                                     libero illo repell endus!</p>
                                 <div class="testi-carousel__intro">
                                     <h3>Faria Anjum</h3>
-                                    <p>Owner</p>
+                                    <p>Developer</p>
                                 </div>
                             </div>
                         </div>

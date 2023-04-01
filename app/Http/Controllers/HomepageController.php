@@ -31,6 +31,9 @@ class HomepageController extends Controller
     public function goToOwnerLoginPage(){
         return view ('login_owner');
     }
+    public function goToDetailsPage(){
+        return view ('room_details');
+    }
     
     
 }

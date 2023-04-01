@@ -27,3 +27,4 @@ Route::get('/registration-owner', [HomepageController:: class, 'goToOwnerRegistr
 Route::get('/registration-renter', [HomepageController:: class, 'goToRenterRegistrationPage'] );
 Route::get('/login-renter', [HomepageController:: class, 'goToRenterLoginPage'] );
 Route::get('/login-owner', [HomepageController:: class, 'goToOwnerLoginPage'] );
+Route::get('/room-details', [HomepageController:: class, 'goToDetailsPage'] )-> name("room-details");
