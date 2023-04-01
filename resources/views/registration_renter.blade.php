@@ -16,39 +16,56 @@
     <!-- Style -->
     <link rel="stylesheet" href="login/css/style.css">
 
-    <title>Login #2</title>
+    <title>Register #2</title>
   </head>
   <body>
   
 
   <div class="d-lg-flex half">
-    <div class="bg order-1 order-md-2" style="background-image: url('login/images/bg_1.jpg');"></div>
+    <div class="bg order-1 order-md-2" style="background-image: url('img/home/login1.jpg');"></div>
     <div class="contents order-2 order-md-1">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
+          
           <div class="col-md-7">
-            <h3>Register  As <strong>Owner</strong></h3>
-            <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
-            <form action="#" method="post">
-              <div class="form-group first">
-                <label for="username">Username</label>
-                <input type="text" class="form-control" placeholder="your-email@gmail.com" id="username">
+            <div class="row">
+              <div class="col d-flex justify-content-end p-3">
+                <img src="img\home\renter.png" alt="" height="45px">
               </div>
-              <div class="form-group last mb-3">
+            </div>
+            <h3>Register as <strong>Renter</strong></h3>
+            <p class="mb-4">Register as a renter to start looking for your dream home!</p>
+            <form action="#" method="post">
+              
+              <div class="form-group first">
+                <label for="username">First Name</label>
+                <input type="text" class="form-control" placeholder="John" id="firstname">
+              </div>
+              <div class="form-group first">
+                <label for="username">Last Name</label>
+                <input type="text" class="form-control" placeholder="Smith" id="lastname">
+              </div>
+              <div class="form-group first">
+                <label for="username">Email</label>
+                <input type="text" class="form-control" placeholder="your-email@gmail.com" id="email">
+              </div>
+              <div class="form-group first">
+                <label for="username">NID</label>
+                <input type="text" class="form-control" placeholder="Your NID" id="nid">
+              </div>
+              <div class="form-group first">
+                <label for="username">Phone</label>
+                <input type="tel" class="form-control" placeholder="+880" id="phone">
+              </div>
+              <div class="form-group first">
                 <label for="password">Password</label>
                 <input type="password" class="form-control" placeholder="Your Password" id="password">
               </div>
-              
-              <div class="d-flex mb-5 align-items-center">
-                <label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
-                  <input type="checkbox" checked="checked"/>
-                  <div class="control__indicator"></div>
-                </label>
-                <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
+              <div class="form-group last mb-3">
+                <label for="username">Confirm Password</label>
+                <input type="password" class="form-control" placeholder="Confirm Password" id="confirm">
               </div>
-
-             
 
             </form>
              <a href="{{ route('index2') }}" ><input type="submit" value="Register" class="btn btn-block btn-primary"></a>

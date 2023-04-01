@@ -398,7 +398,7 @@
             <div class="container">
                 <div class="section-intro text-center pb-20px">
                     <div class="section-intro__style">
-                        <img src="img/home/bed-icon.png" alt="">
+                        <img src="img/home/team.png" alt="" height="60px">
                     </div>
                     <h2>Meet Our Team</h2>
                 </div>
@@ -438,7 +438,7 @@
                     <div class="testi-carousel__item">
                         <div class="media">
                             <div class="testi-carousel__img">
-                                <img style="height:74px; border-radius:50px"src="img/home/faria.jpeg" alt="">
+                                <img style="height:74px; border-radius:50px"src="img/home/faria.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum
