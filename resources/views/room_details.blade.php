@@ -70,10 +70,11 @@
                             <p style="font-size:20px;">Floor: Second Floor</p>
                             <p style="font-size:20px;">Fair: ৳19,000</p>
                             <p style="font-size:20px;">Servicing-Charge: ৳3,000</p>
+                            
 
                             <a class="button button--active home-banner-btn mt-4" href="#">Call Now</a>
                             <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
-                                href="#">Book Now</a>
+                                href="#">Book Now</a> 
                         </div>
                     </div>
                 </div>
