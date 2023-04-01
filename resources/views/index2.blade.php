@@ -95,7 +95,7 @@
       <div class="container h-100">
         <div class="home-banner">
           <div class="text-center">
-            <h4>See What a Difference a stay makes</h4>
+            <h4>Where Luxury Meets Convenience</h4>
             <h1>Home <em> </em> Rent</h1>
             <a class="button home-banner-btn" href="#">Search Now</a>
           </div>
@@ -136,11 +136,12 @@
             <div class="form-group">
               <div class="form-select-custom">
                 <select name="" id="">
-                  <option value="" disabled selected>Number of room</option>
-                      <option value="8 AM">2 Rooms</option>
-                      <option value="12 PM">3 Rooms</option>
-                      <option value="12 PM">4 Rooms</option>
-                      <option value="12 PM">5 Rooms</option>
+                  <option value="" disabled selected>Minimum number of Beds</option>
+                      <option value="8 AM">1 Bed</option>
+                      <option value="12 PM">2 Beds</option>
+                      <option value="12 PM">3 Beds</option>
+                      <option value="12 PM">4 Beds</option>
+                      <option value="12 PM">5 Beds</option>
                 </select>
               </div>
             </div>
@@ -164,26 +165,26 @@
             <div class="row no-gutters welcome-images">
               <div class="col-sm-7">
                 <div class="card">
-                  <img class="" src="img/home/welcomeBanner1.png" alt="Card image cap">
+                  <img class="" src="img/home/welcome1.jpg" alt="Card image cap">
                 </div>
               </div>
               <div class="col-sm-5">
                 <div class="card">
-                  <img class="" src="img/home/welcomeBanner2.png" alt="Card image cap">
+                  <img class="" src="img/home/welcome2.jpg" alt="Card image cap">
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="card">
-                  <img class="" src="img/home/welcomeBanner3.png" alt="Card image cap">
+                  <img class="" src="img/home/welcome3.jpg" alt="Card image cap">
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-7">
             <div class="welcome-content">
-              <h2 class="mb-4"><span class="d-block">Welcome</span> to Home Rental System</h2>
-              <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed moved firmament gathered </p>
-              <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed</p>
+              <h2 class="mb-4"><span class="d-block">Welcome</span>to Sea Palace Home Rental</h2>
+              <p>Whether you're a renter in search of the perfect place to call home, or an owner looking to list your property, you're in the right place! Our platform is designed to connect renters with the ideal rental property, while providing owners with a convenient way to manage their listings.</p>
+              <p>We're committed to helping you find the perfect rental property or tenant and to making your rental experience as smooth as possible. We can't wait to help you find your perfect match and make your rental dreams a reality!</p>
               <a class="button button--active home-banner-btn mt-4" href="#">Learn More</a>
             </div>
           </div>
@@ -195,9 +196,9 @@
       <div class="container">
         <div class="section-intro text-center pb-80px">
           <div class="section-intro__style">
-            <img src="img/home/bed-icon.png" alt="">
+            <img src="img/home/home-icon.png" height="35px" alt="">
           </div>
-          <h2>Explore Our Rooms</h2>
+          <h2>Explore Our Featured Homes</h2>
         </div>
 
         <div class="row">
@@ -208,9 +209,9 @@
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
-                <h4 class="card-explore__title"><a href="#">Classic Bed Room</a></h4>
+                <h4 class="card-explore__title"><a href="#">Condo</a></h4>
                  <h6>Mohammadpur, Dhaka</h6>
-                <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+                <p>A cozy 1100 square feet condo in the heart of Mohammadpur, with two beds and two baths.</p>
                
                 <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
@@ -220,13 +221,18 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/home/room1.jpg" alt="">
+                <img class="card-img" src="img/home/room2.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳17,000 <sub>/ Per Month</sub></h3>
-                <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
+                <h4 class="card-explore__title"><a href="#">Condo</a></h4>
                 <h6>Mirpur, Dhaka</h6>
-                <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+                <p>A 1400 square feet condo with a scenic view located in Mirpur, with two beds and three baths.
+                  <!--<ul>
+                    <li><img src="img/home/size.png" alt="size-icon"> 1100 sqft</li>
+                    <li><img src="img/home/bed.png" alt="size-icon"> 3 beds</li>
+                    <li><img src="img/home/bath.png" alt="size-icon"> 4 baths</li>
+                  </ul>--></p>
                 <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
             </div>
@@ -235,13 +241,13 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/home/explore3.png" alt="">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
-                <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                 <h6>Dhanmondi, Dhaka</h6>
-                <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
                 <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
             </div>
@@ -257,11 +263,11 @@
     <section class="video-area">
       <div class="container">
         <div class="row justify-content-center align-items-center flex-column text-center">
-          <a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=vParh5wE-tM">
+          <a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=Fun4Mj695y0"><!--https://www.youtube.com/watch?v=vParh5wE-tM-->
             <span></span>
           </a>
           <h3>Home Rent</h3>
-          <p>View four has said does men saw find dear shy talent</p>
+          <p>Watch a video to learn about our services and how it all works</p>
         </div>
       </div>  
     </section>
@@ -277,7 +283,7 @@
           <h2>Special Facilities</h2>
         </div>
         <div class="special-img mb-30px">
-          <img class="img-fluid" src="img/home/special.png" alt="">
+          <img class="img-fluid" src="img/home/special2.png" alt="">
         </div>
 
         <div class="row">
@@ -286,11 +292,11 @@
               <div class="media align-items-center mb-1">
                 <span class="card-special__icon"><i class="ti-home"></i></span>
                 <div class="media-body">
-                  <h4 class="card-special__title">Conference Room</h4>
+                  <h4 class="card-special__title">Fully Furnished</h4>
                 </div>
               </div>
               <div class="card-body">
-                <p>Built purse maids cease her ham new seven among and. Pulled coming wooded tended it answer remain</p>
+                <p>Most of our featured homes come equipped with original furnitures and fittings.</p>
               </div>
             </div>
           </div>
@@ -304,7 +310,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <p>Built purse maids cease her ham new seven among and. Pulled coming wooded tended it answer remain</p>
+                <p>If you're after luxury, our more deluxe homes feature excellent rooftop swimming pools.</p>
               </div>
             </div>
           </div>
@@ -314,11 +320,11 @@
               <div class="media align-items-center mb-1">
                 <span class="card-special__icon"><i class="ti-car"></i></span>
                 <div class="media-body">
-                  <h4 class="card-special__title">Sports Culb</h4>
+                  <h4 class="card-special__title">Parking</h4>
                 </div>
               </div>
               <div class="card-body">
-                <p>Built purse maids cease her ham new seven among and. Pulled coming wooded tended it answer remain</p>
+                <p>For your convenience, all our homes include expansive garages and underground parking services.</p>
               </div>
             </div>
           </div>
@@ -334,7 +340,7 @@
           <div class="section-intro__style">
             <img src="img/home/bed-icon.png" alt="">
           </div>
-          <h2>Our Guest Love Us</h2>
+          <h2>Our Visitors Love Us</h2>
         </div>
         <div class="owl-carousel owl-theme testi-carousel">
           <div class="testi-carousel__item">
@@ -346,7 +352,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Robert Mack</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -361,7 +367,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>David Alone</h3>
-                  <p>CEO & Founder</p>
+                  <p>Owner</p>
                 </div>
               </div>
             </div>
@@ -376,7 +382,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Adam Pallin</h3>
-                  <p>CEO & Founder</p>
+                  <p>Owner</p>
                 </div>
               </div>
             </div>
@@ -391,7 +397,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Robert Mack</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -406,7 +412,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>David Alone</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -421,7 +427,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Adam Pallin</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -436,7 +442,7 @@
                   <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                   <div class="testi-carousel__intro">
                     <h3>Robert Mack</h3>
-                    <p>CEO & Founder</p>
+                    <p>Owner</p>
                   </div>
                 </div>
               </div>
@@ -451,7 +457,7 @@
                   <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                   <div class="testi-carousel__intro">
                     <h3>David Alone</h3>
-                    <p>CEO & Founder</p>
+                    <p>Renter</p>
                   </div>
                 </div>
               </div>
