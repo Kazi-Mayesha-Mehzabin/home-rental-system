@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7">
-            <h3>Register  As <strong>Owner</strong></h3>
+            <h3>Register  As <strong>Renter</strong></h3>
             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
             <form action="#" method="post">
               <div class="form-group first">
