@@ -136,11 +136,12 @@
             <div class="form-group">
               <div class="form-select-custom">
                 <select name="" id="">
-                  <option value="" disabled selected>Number of room</option>
-                      <option value="8 AM">2 Rooms</option>
-                      <option value="12 PM">3 Rooms</option>
-                      <option value="12 PM">4 Rooms</option>
-                      <option value="12 PM">5 Rooms</option>
+                  <option value="" disabled selected>Minimum number of Beds</option>
+                      <option value="8 AM">1 Bed</option>
+                      <option value="12 PM">2 Beds</option>
+                      <option value="12 PM">3 Beds</option>
+                      <option value="12 PM">4 Beds</option>
+                      <option value="12 PM">5 Beds</option>
                 </select>
               </div>
             </div>
@@ -164,17 +165,17 @@
             <div class="row no-gutters welcome-images">
               <div class="col-sm-7">
                 <div class="card">
-                  <img class="" src="img/home/welcomeBanner1.png" alt="Card image cap">
+                  <img class="" src="img/home/welcome1.jpg" alt="Card image cap">
                 </div>
               </div>
               <div class="col-sm-5">
                 <div class="card">
-                  <img class="" src="img/home/welcomeBanner2.png" alt="Card image cap">
+                  <img class="" src="img/home/welcome2.jpg" alt="Card image cap">
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="card">
-                  <img class="" src="img/home/welcomeBanner3.png" alt="Card image cap">
+                  <img class="" src="img/home/welcome3.jpg" alt="Card image cap">
                 </div>
               </div>
             </div>
@@ -195,7 +196,7 @@
       <div class="container">
         <div class="section-intro text-center pb-80px">
           <div class="section-intro__style">
-            <img src="img/home/house-icon.png" height="50px" alt="">
+            <img src="img/home/home-icon.png" height="35px" alt="">
           </div>
           <h2>Explore Our Featured Homes</h2>
         </div>
@@ -210,7 +211,7 @@
                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
                 <h4 class="card-explore__title"><a href="#">Condo</a></h4>
                  <h6>Mohammadpur, Dhaka</h6>
-                <p>A comfortable 1100 square feet condo in the heart of Mohammadpur, with two beds and two baths.</p>
+                <p>A cozy 1100 square feet condo in the heart of Mohammadpur, with two beds and two baths.</p>
                
                 <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
               </div>
@@ -262,11 +263,11 @@
     <section class="video-area">
       <div class="container">
         <div class="row justify-content-center align-items-center flex-column text-center">
-          <a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=vParh5wE-tM">
+          <a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=Fun4Mj695y0"><!--https://www.youtube.com/watch?v=vParh5wE-tM-->
             <span></span>
           </a>
           <h3>Home Rent</h3>
-          <p>View four has said does men saw find dear shy talent</p>
+          <p>Watch a video to learn about our services and how it all works</p>
         </div>
       </div>  
     </section>
@@ -282,7 +283,7 @@
           <h2>Special Facilities</h2>
         </div>
         <div class="special-img mb-30px">
-          <img class="img-fluid" src="img/home/special.png" alt="">
+          <img class="img-fluid" src="img/home/special2.png" alt="">
         </div>
 
         <div class="row">
@@ -291,11 +292,11 @@
               <div class="media align-items-center mb-1">
                 <span class="card-special__icon"><i class="ti-home"></i></span>
                 <div class="media-body">
-                  <h4 class="card-special__title">Conference Room</h4>
+                  <h4 class="card-special__title">Fully Furnished</h4>
                 </div>
               </div>
               <div class="card-body">
-                <p>Built purse maids cease her ham new seven among and. Pulled coming wooded tended it answer remain</p>
+                <p>Most of our featured homes come equipped with original furnitures and fittings.</p>
               </div>
             </div>
           </div>
@@ -309,7 +310,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <p>Built purse maids cease her ham new seven among and. Pulled coming wooded tended it answer remain</p>
+                <p>If you're after luxury, our more deluxe homes feature excellent rooftop swimming pools.</p>
               </div>
             </div>
           </div>
@@ -319,11 +320,11 @@
               <div class="media align-items-center mb-1">
                 <span class="card-special__icon"><i class="ti-car"></i></span>
                 <div class="media-body">
-                  <h4 class="card-special__title">Sports Culb</h4>
+                  <h4 class="card-special__title">Parking</h4>
                 </div>
               </div>
               <div class="card-body">
-                <p>Built purse maids cease her ham new seven among and. Pulled coming wooded tended it answer remain</p>
+                <p>For your convenience, all our homes include expansive garages and underground parking services.</p>
               </div>
             </div>
           </div>
@@ -339,7 +340,7 @@
           <div class="section-intro__style">
             <img src="img/home/bed-icon.png" alt="">
           </div>
-          <h2>Our Guest Love Us</h2>
+          <h2>Our Visitors Love Us</h2>
         </div>
         <div class="owl-carousel owl-theme testi-carousel">
           <div class="testi-carousel__item">
@@ -351,7 +352,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Robert Mack</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -366,7 +367,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>David Alone</h3>
-                  <p>CEO & Founder</p>
+                  <p>Owner</p>
                 </div>
               </div>
             </div>
@@ -381,7 +382,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Adam Pallin</h3>
-                  <p>CEO & Founder</p>
+                  <p>Owner</p>
                 </div>
               </div>
             </div>
@@ -396,7 +397,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Robert Mack</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -411,7 +412,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>David Alone</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -426,7 +427,7 @@
                 <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                 <div class="testi-carousel__intro">
                   <h3>Adam Pallin</h3>
-                  <p>CEO & Founder</p>
+                  <p>Renter</p>
                 </div>
               </div>
             </div>
@@ -441,7 +442,7 @@
                   <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                   <div class="testi-carousel__intro">
                     <h3>Robert Mack</h3>
-                    <p>CEO & Founder</p>
+                    <p>Owner</p>
                   </div>
                 </div>
               </div>
@@ -456,7 +457,7 @@
                   <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum libero illo repell endus!</p>
                   <div class="testi-carousel__intro">
                     <h3>David Alone</h3>
-                    <p>CEO & Founder</p>
+                    <p>Renter</p>
                   </div>
                 </div>
               </div>
