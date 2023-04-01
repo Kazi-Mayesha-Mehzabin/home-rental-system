@@ -21,11 +21,11 @@
 </head>
 
 <body>
-   
+
     <main class="site-main">
 
 
-      
+
         <!-- ================ welcome section start ================= -->
         <section class="welcome">
             <div class="container">
@@ -45,6 +45,15 @@
                             <div class="col-lg-12">
                                 <div class="card">
                                     <img class="" src="img/home/welcome3.jpg" alt="Card image cap">
+
+                                </div>
+                                <div style="margin-top:20px;">
+
+                                    <p>A two bed flat perfect for dwelling with a soothing and refreshing environment
+                                        with
+                                        24/7 generature and water service and lift. A small playground for everyone to
+                                        spend
+                                        some quality time with family. </p>
                                 </div>
                             </div>
                         </div>
@@ -52,14 +61,19 @@
                     <div class="col-lg-7">
                         <div class="welcome-content">
                             <h2 class="mb-4"><span class="d-block">Details</span></h2>
-                            <p>Whether you're a renter in search of the perfect place to call home, or an owner looking
-                                to list your property, you're in the right place! Our platform is designed to connect
-                                renters with the ideal rental property, while providing owners with a convenient way to
-                                manage their listings.</p>
-                            <p>We're committed to helping you find the perfect rental property or tenant and to making
-                                your rental experience as smooth as possible. We can't wait to help you find your
-                                perfect match and make your rental dreams a reality!</p>
-                            <a class="button button--active home-banner-btn mt-4" href="#">Learn More</a>
+                            <p style="font-size:20px;">Name: Sayed Nibash</p>
+                            <p style="font-size:20px;">Location: Mirpur-02, Block-F, Dhaka </p>
+                            <p style="font-size:20px;">Room(s): 2</p>
+                            <p style="font-size:20px;">Bathroom(s): 2</p>
+                            <p style="font-size:20px;">Specification: 1400 (sq) feet</p>
+                            <p style="font-size:20px;">Lift: Available</p>
+                            <p style="font-size:20px;">Floor: Second Floor</p>
+                            <p style="font-size:20px;">Fair: ৳19,000</p>
+                            <p style="font-size:20px;">Servicing-Charge: ৳3,000</p>
+
+                            <a class="button button--active home-banner-btn mt-4" href="#">Call Now</a>
+                            <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
+                                href="#">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +83,7 @@
 
 
 
-      
+
 
 
 
@@ -77,7 +91,7 @@
 
 
 
-   
+
     <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="vendors/magnefic-popup/jquery.magnific-popup.min.js"></script>
