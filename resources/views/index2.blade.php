@@ -252,6 +252,95 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-explore">
+              <div class="card-explore__img">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
+                <h6>Dhanmondi, Dhaka</h6>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-explore">
+              <div class="card-explore__img">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
+                <h6>Dhanmondi, Dhaka</h6>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-explore">
+              <div class="card-explore__img">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
+                <h6>Dhanmondi, Dhaka</h6>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-explore">
+              <div class="card-explore__img">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
+                <h6>Dhanmondi, Dhaka</h6>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-explore">
+              <div class="card-explore__img">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
+                <h6>Dhanmondi, Dhaka</h6>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-explore">
+              <div class="card-explore__img">
+                <img class="card-img" src="img/home/room3.jpeg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
+                <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
+                <h6>Dhanmondi, Dhaka</h6>
+                <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and four baths.</p>
+                <a class="card-explore__link" href="#">View Details <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

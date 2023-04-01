@@ -51,7 +51,7 @@
              
 
             </form>
-             <a href="{{ route('index2') }}" ><input type="submit" value="Log In" class="btn btn-block btn-primary"></a>
+             <a href="{{ route('index2') }}" ><input type="submit" value="Register" class="btn btn-block btn-primary"></a>
 
             
           </div>
