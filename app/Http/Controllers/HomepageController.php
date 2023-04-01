@@ -34,6 +34,9 @@ class HomepageController extends Controller
     public function goToDetailsPage(){
         return view ('room_details');
     }
+    public function goToDetailsPage2(){
+        return view ('room_details2');
+    }
     
     
 }

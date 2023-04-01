@@ -44,7 +44,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="card">
-                                    <img class="" src="img/home/area.jpg" alt="Card image cap">
+                                    <img style=" height:300px;" class="" src="img/home/balcony.jpg" alt="Card image cap">
 
                                 </div>
                                 <div style="margin-top:20px;">
@@ -63,13 +63,13 @@
                             <h2 class="mb-4"><span class="d-block">Details</span></h2>
                             <p style="font-size:20px;">Name: Sayed Nibash</p>
                             <p style="font-size:20px;">Location: Mirpur-02, Block-F, Dhaka </p>
-                            <p style="font-size:20px;">Room(s): 2</p>
+                            <p style="font-size:20px;">Room(s): 1</p>
                             <p style="font-size:20px;">Bathroom(s): 2</p>
-                            <p style="font-size:20px;">Specification: 1400 (sq) feet</p>
+                            <p style="font-size:20px;">Specification: 1100 (sq) feet</p>
                             <p style="font-size:20px;">Lift: Available</p>
-                            <p style="font-size:20px;">Floor: Second Floor</p>
-                            <p style="font-size:20px;">Fair: ৳19,000</p>
-                            <p style="font-size:20px;">Servicing-Charge: ৳3,000</p>
+                            <p style="font-size:20px;">Floor: Fourth Floor</p>
+                            <p style="font-size:20px;">Fair: ৳17,000</p>
+                            <p style="font-size:20px;">Servicing-Charge: ৳2,000</p>
 
 
                             <a class="button button--active home-banner-btn mt-4" href="#">Call Now</a>
