@@ -220,17 +220,20 @@
                                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Condo</a></h4>
                                 <div class="row">
-                                <img style="height:20px; width:20px; margin-left:10px" src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
                                     <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
                                         target="_blank">
-                                        <h6 style="margin-left:5px;">Mohammadpur, Dhaka</h6>
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+
                                     </a>
+                                    <h6 style="margin-left:5px;">Mohammadpur, Dhaka</h6>
                                 </div>
 
                                 <p>A cozy 1100 square feet condo in the heart of Mohammadpur, with two beds and two
                                     baths.</p>
 
-                                <a class="card-explore__link" href="#">View Details <i
+                                <a class="card-explore__link" href="{{ route('room-details2') }}">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
@@ -244,7 +247,17 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳17,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Condo</a></h4>
-                                <h6>Mirpur, Dhaka</h6>
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+
+                                    </a>
+                                    <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
+                                </div>
+                               
                                 <p>A 1400 square feet condo with a scenic view located in Mirpur, with two beds and
                                     three baths.
                                     <!--<ul>
@@ -253,7 +266,7 @@
                     <li><img src="img/home/bath.png" alt="size-icon"> 4 baths</li>
                   </ul>-->
                                 </p>
-                                <a class="card-explore__link" href="{{route('room-details')}}">View Details <i
+                                <a class="card-explore__link" href="{{ route('room-details') }}">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
@@ -267,7 +280,18 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
-                                <h6>Dhanmondi, Dhaka</h6>
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+
+                                    </a>
+                                     <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
+                                    
+                                </div>
+                               
                                 <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and
                                     four baths.</p>
                                 <a class="card-explore__link" href="#">View Details <i
