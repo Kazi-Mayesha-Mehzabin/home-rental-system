@@ -407,7 +407,7 @@ button {
         margin-right: 50px; } }
 
 .footer-area {
-  padding: 120px 0px 120px;
+  padding: 50px 0px 50px;
   background: #0b1a2a; }
   @media (max-width: 991px) {
     .footer-area {
