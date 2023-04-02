@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-sm-5">
                                 <div class="card">
-                                    <img class="" src="img/home/study.jpg" alt="Card image cap">
+                                    <img style="height:255px;"class="" src="img/home/study.jpg" alt="Card image cap">
                                 </div>
                             </div>
                             <div class="col-lg-12">
@@ -72,7 +72,7 @@
                             <p style="font-size:20px;">Floor: Fifth Floor</p>
                             <p style="font-size:20px;">Fair: ৳19,000</p>
                             <p style="font-size:20px;">Servicing-Charge: ৳2,500</p>
-                            <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
+                            <a style="margin-left:3px;" class="button button--active home-banner-btn mt-4"
                                 href="#">Confirm Booking </a>
                         </div>
                     </div>

@@ -27,17 +27,15 @@
             <div class="container">
                 <div class="d-flex align-items-center">
                     <div id="logo">
-                        <a href="index.html"><img src="img/Logo.png" alt="" title="" /></a>
+                        <a href="index.html"><img style="height:70px;" src="img/home/logo.png" alt="" title="" /></a>
                     </div>
                     <div class="ml-auto d-none d-md-block d-md-flex">
 
                         <div class="media header-top-info">
-                            <span class="header-top-info__icon"><i class="ti-email"></i></span>
-                            <div class="media-body">
-                                <p>Have any question?</p>
-                                <p>Free: <a href="tel:+12 365 5233">+12 365 5233</a></p>
-                            </div>
+
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -67,13 +65,13 @@
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
-
-                    <ul class="social-icons ml-auto">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <ul class="nav navbar-nav menu_nav">
+                        <li  class="nav-item"><a style="color:#0276EA;" class="nav-link" href="{{route('login-renter')}}"><b>Log In</b></a></li>
+                        <li  class="nav-item"><a style="color:#0276EA;" class="nav-link" href="{{route('register-renter')}}"><b>Sign Up</b></a></li>
 
                     </ul>
+
+
                 </div>
             </nav>
 
@@ -257,7 +255,7 @@
                                     </a>
                                     <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
                                 </div>
-                               
+
                                 <p>A 1400 square feet condo with a scenic view located in Mirpur, with two beds and
                                     three baths.
                                     <!--<ul>
@@ -288,13 +286,13 @@
 
 
                                     </a>
-                                     <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
-                                    
+                                    <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
+
                                 </div>
-                               
+
                                 <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and
                                     four baths.</p>
-                              <a class="card-explore__link" href="{{ route('room-details3') }}">View Details <i
+                                <a class="card-explore__link" href="{{ route('room-details3') }}">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>

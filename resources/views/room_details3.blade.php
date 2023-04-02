@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-sm-5">
                                 <div class="card">
-                                    <img class="" src="img/home/study.jpg" alt="Card image cap">
+                                    <img style="height:255px;"class="" src="img/home/study.jpg" alt="Card image cap">
                                 </div>
                             </div>
                             <div class="col-lg-12">
@@ -74,7 +74,7 @@
                             <p style="font-size:20px;">Servicing-Charge: ৳2,500</p>
 
 
-                            <a class="button button--active home-banner-btn mt-4" href="#">Call Now</a>
+                            <a class="button button--active home-banner-btn mt-4" href="{{route('callNow')}}"  target="_blank">Call Now</a>
                             <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
                                 href="{{ route('bookNow') }}"  target="_blank">Book Now</a>
                         </div>

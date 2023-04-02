@@ -43,6 +43,9 @@ class HomepageController extends Controller
     public function goToBookingPage(){
         return view ('bookNow');
     }
+    public function goToCallingPage(){
+        return view ('callNow');
+    }
     
     
 }

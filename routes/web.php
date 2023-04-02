@@ -24,10 +24,11 @@ Route::get('/', [HomepageController:: class, 'viewIndexPage'] ) -> name("index2"
 Route::get('/index', [HomepageController:: class, 'viewIndexPage'] );
 Route::get('/login2', [HomepageController:: class, 'goToLoginPage'] );
 Route::get('/registration-owner', [HomepageController:: class, 'goToOwnerRegistrationPage'] );
-Route::get('/registration-renter', [HomepageController:: class, 'goToRenterRegistrationPage'] );
-Route::get('/login-renter', [HomepageController:: class, 'goToRenterLoginPage'] );
+Route::get('/registration-renter', [HomepageController:: class, 'goToRenterRegistrationPage'] )->name("register-renter");
+Route::get('/login-renter', [HomepageController:: class, 'goToRenterLoginPage'] )->name("login-renter");
 Route::get('/login-owner', [HomepageController:: class, 'goToOwnerLoginPage'] );
 Route::get('/room-details', [HomepageController:: class, 'goToDetailsPage'] )-> name("room-details");
 Route::get('/room-details2', [HomepageController:: class, 'goToDetailsPage2'] )-> name("room-details2");
 Route::get('/room-details3', [HomepageController:: class, 'goToDetailsPage3'] )-> name("room-details3");
 Route::get('/bookNow', [HomepageController:: class, 'goToBookingPage'] )-> name("bookNow");
+Route::get('/call-now', [HomepageController:: class, 'goToCallingPage'] )-> name("callNow");

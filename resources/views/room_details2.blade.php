@@ -34,17 +34,17 @@
                         <div class="row no-gutters welcome-images">
                             <div class="col-sm-7">
                                 <div class="card">
-                                    <img class="" src="img/home/welcome1.jpg" alt="Card image cap">
+                                    <img style="height:270px;" class="" src="img/home/room3.jpg" alt="Card image cap">
                                 </div>
                             </div>
                             <div class="col-sm-5">
                                 <div class="card">
-                                    <img class="" src="img/home/lift.jpg" alt="Card image cap">
+                                    <img style="height:270px;"class="" src="img/home/balcony2.jpg" alt="Card image cap">
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="card">
-                                    <img style=" height:300px;" class="" src="img/home/balcony.jpg" alt="Card image cap">
+                                    <img class="" src="img/home/dine.jpg" alt="Card image cap">
 
                                 </div>
                                 <div style="margin-top:20px;">
