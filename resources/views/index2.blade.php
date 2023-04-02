@@ -318,7 +318,7 @@
                                 </div>
                                 <p>A beautiful 1300 square feet flat in the quiet city of Mirsharai, with two beds and
                                     two baths.</p>
-                                <a class="card-explore__link" href="{{ route('room-details4') }}">View Details <i
+                                <a class="card-explore__link" href="#">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
