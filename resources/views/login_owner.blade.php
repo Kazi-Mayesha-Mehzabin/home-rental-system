@@ -16,24 +16,30 @@
     <!-- Style -->
     <link rel="stylesheet" href="login/css/style.css">
 
-    <title>Login #2</title>
+    <title>Login #1</title>
   </head>
   <body>
   
 
   <div class="d-lg-flex half">
-    <div class="bg order-1 order-md-2" style="background-image: url('login/images/bg_1.jpg');"></div>
+    <div class="bg order-1 order-md-2" style="background-image: url('img/home/login1.jpg');"></div>
     <div class="contents order-2 order-md-1">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
+          
           <div class="col-md-7">
-            <h3>Register  As <strong>Owner</strong></h3>
-            <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
+            <div class="row">
+              <div class="col d-flex justify-content-end p-3">
+                <img src="img\home\renter.png" alt="" height="45px">
+              </div>
+            </div>
+            <h3>Log in as <strong>Owner</strong></h3>
+            <p class="mb-4">Log in as an owner to view your listings and tenants</p>
             <form action="#" method="post">
               <div class="form-group first">
-                <label for="username">Username</label>
-                <input type="text" class="form-control" placeholder="your-email@gmail.com" id="username">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" placeholder="+880" id="phone">
               </div>
               <div class="form-group last mb-3">
                 <label for="password">Password</label>
