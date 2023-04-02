@@ -306,8 +306,17 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳16,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
-                                <h6>Mirsharai, Chittagong</h6>
-                                <p>A beautiful 1300 square feet flat in the city of Mirsharai, with two beds and
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+                                    </a>
+                                    <h6 style="margin-left:5px;">Mirsharai, Chittagong</h6>
+
+                                </div>
+                                <p>A beautiful 1300 square feet flat in the quiet city of Mirsharai, with two beds and
                                     two baths.</p>
                                 <a class="card-explore__link" href="#">View Details <i
                                         class="ti-arrow-right"></i></a>
@@ -323,8 +332,17 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳12,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
-                                <h6>Bashundhara R/A, Dhaka</h6>
-                                <p>A modest 800 square feet bachelor home in Bashundhara, with one bed and
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+                                    </a>
+                                    <h6 style="margin-left:5px;">Bashundhara R/A, Dhaka</h6>
+
+                                </div>
+                                <p>A modest 800 square feet bachelor home at the center of Bashundhara, with one bed and
                                     one bath.</p>
                                 <a class="card-explore__link" href="#">View Details <i
                                         class="ti-arrow-right"></i></a>
@@ -340,7 +358,16 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳11,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
-                                <h6>Gulshan, Dhaka</h6>
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+                                    </a>
+                                    <h6 style="margin-left:5px;">Gulshan, Dhaka</h6>
+
+                                </div>
                                 <p>A 600 square feet studio apartment in the middle of Gulshan, with one bed and
                                     one bath.</p>
                                 <a class="card-explore__link" href="#">View Details <i
@@ -357,8 +384,17 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳20,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
-                                <h6>Durgapur, Sylhet</h6>
-                                <p>A deluxe 1800 square feet apartment in Durgapur, with four beds and
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+                                    </a>
+                                    <h6 style="margin-left:5px;">Durgapur, Sylhet</h6>
+
+                                </div>
+                                <p>A deluxe 1800 square feet apartment in Durgapur, Sylhet, with four beds and
                                     three baths.</p>
                                 <a class="card-explore__link" href="#">View Details <i
                                         class="ti-arrow-right"></i></a>
@@ -374,7 +410,17 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳18,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
-                                <h6>Dhanmondi, Dhaka</h6>
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+
+                                    </a>
+                                    <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
+
+                                </div>
+
                                 <p>An upscale 1400 square feet apartment located in Dhanmondi, with three beds and
                                     two baths.</p>
                                 <a class="card-explore__link" href="#">View Details <i
@@ -390,8 +436,17 @@
                             <div class="card-body">
                                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
-                                <h6>Varuakhali, Cox's Bazar</h6>
-                                <p>A secure 1200 square feet flat Varuakhali, with two beds and
+                                <div class="row">
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                        target="_blank">
+                                        <img style="height:20px; width:20px; margin-left:10px"
+                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
+                                    </a>
+                                    <h6 style="margin-left:5px;">Varuakhali, Cox's Bazar</h6>
+
+                                </div>
+
+                                <p>A secure 1200 square feet flat in the quiet area of Varuakhali, with two beds and
                                     one bath.</p>
                                 <a class="card-explore__link" href="#">View Details <i
                                         class="ti-arrow-right"></i></a>
