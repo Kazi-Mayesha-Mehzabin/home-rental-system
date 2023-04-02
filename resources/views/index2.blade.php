@@ -294,7 +294,8 @@
                                
                                 <p>A luxurious 1600 square feet apartment situated in Dhanmondi, with three beds and
                                     four baths.</p>
-                                <a class="card-explore__link" href="#">View Details <i
+                                <a class="card-explore__link" href=" <a class="card-explore__link" href="{{ route('room-details3') }}">View Details <i
+                                        class="ti-arrow-right"></i></a>">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
