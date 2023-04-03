@@ -33,3 +33,6 @@ Route::get('/room-details3', [HomepageController:: class, 'goToDetailsPage3'] )-
 
 Route::get('/bookNow', [HomepageController:: class, 'goToBookingPage'] )-> name("bookNow");
 Route::get('/call-now', [HomepageController:: class, 'goToCallingPage'] )-> name("callNow");
+Route::get('/flat-list', [HomepageController:: class, 'goToFlatListPage'] )-> name("flat-list");
+Route::get('/payment', [HomepageController:: class, 'goToPaymentPage'] )-> name("payment");
+

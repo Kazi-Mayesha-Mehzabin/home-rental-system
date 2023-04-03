@@ -74,7 +74,7 @@
                             <p style="font-size:20px;">Servicing-Charge: ৳2,500</p>
 
 
-                            <a class="button button--active home-banner-btn mt-4" href="{{route('callNow')}}"  target="_blank">Call Now</a>
+                            <a class="button button--active home-banner-btn mt-4" href="tel:01747897071"  target="_blank">Call Now</a>
                             <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
                                 href="{{ route('bookNow') }}"  target="_blank">Book Now</a>
                         </div>

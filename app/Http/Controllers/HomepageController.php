@@ -46,6 +46,12 @@ class HomepageController extends Controller
     public function goToCallingPage(){
         return view ('callNow');
     }
+    public function goToFlatListPage(){
+        return view ('flatList');
+    }
+    public function goToPaymentPage(){
+        return view ('payment');
+    }
     
     
 }
