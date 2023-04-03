@@ -27,7 +27,8 @@
             <div class="container">
                 <div class="d-flex align-items-center">
                     <div id="logo">
-                        <a href="index.html"><img style="height:70px;" src="img/home/logo.png" alt="" title="" /></a>
+                        <a href="index.html"><img style="height:70px;" src="img/home/logo.png" alt=""
+                                title="" /></a>
                     </div>
                     <div class="ml-auto d-none d-md-block d-md-flex">
 
@@ -66,8 +67,10 @@
                         </ul>
                     </div>
                     <ul class="nav navbar-nav menu_nav">
-                        <li  class="nav-item"><a style="color:#0276EA;" class="nav-link" href="{{route('login-renter')}}"><b>Log In</b></a></li>
-                        <li  class="nav-item"><a style="color:#0276EA;" class="nav-link" href="{{route('register-renter')}}"><b>Sign Up</b></a></li>
+                        <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                href="{{ route('login-renter') }}"><b>Log In</b></a></li>
+                        <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                href="{{ route('register-renter') }}"><b>Sign Up</b></a></li>
 
                     </ul>
 
@@ -98,7 +101,7 @@
                     <div class="text-center">
                         <h4>Where Luxury Meets Convenience</h4>
                         <h1>Home <em> </em> Rent</h1>
-                       
+
                     </div>
                 </div>
             </div>
@@ -107,7 +110,7 @@
 
 
         <!-- ================ start banner form ================= -->
-        <form class="form-search form-search-position">
+        <form action= "{{route('flat-list')}}" method="get" class="form-search form-search-position">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 gutters-19">
@@ -150,9 +153,11 @@
                     </div>
 
                     <div class="col-lg-4 gutters-19">
-                        <div class="form-group">
-                            <button class="button button-form" type="submit"> Search Now</button>
-                        </div>
+                        
+                            <div class="form-group">
+                                <button class="button button-form" type="submit">Search Now</button>
+                            </div>
+                        
                     </div>
                 </div>
             </div>
