@@ -116,7 +116,7 @@
 
 
                                     </a>
-                                    <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
+                                    <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
 
                                 </div>
 
@@ -247,7 +247,7 @@
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
 
                                     </a>
-                                    <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
+                                    <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
 
                                 </div>
 
@@ -299,7 +299,7 @@
 
 
                                     </a>
-                                    <h6 style="margin-left:5px;">Mohammadpur, Dhaka</h6>
+                                    <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
                                 </div>
 
                                 <p>A cozy 1100 square feet flat in the heart of Mohammadpur, with two beds and two
@@ -360,7 +360,7 @@
 
 
                                     </a>
-                                    <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
+                                    <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
 
                                 </div>
 
@@ -491,7 +491,7 @@
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
 
                                     </a>
-                                    <h6 style="margin-left:5px;">Dhanmondi, Dhaka</h6>
+                                    <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
 
                                 </div>
 
