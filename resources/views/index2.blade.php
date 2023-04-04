@@ -29,6 +29,8 @@
                     <div id="logo">
                         <a href="index.html"><img style="height:70px;" src="img/home/logo.png" alt=""
                                 title="" /></a>
+                        <a style="color:#000000; font-size:25px;font-family: "Playfair Display", serif;">Home
+                                Rent</a>
                     </div>
                     <div class="ml-auto d-none d-md-block d-md-flex">
 
@@ -99,7 +101,7 @@
             <div class="container h-100">
                 <div class="home-banner">
                     <div class="text-center">
-                        <h4>Where Luxury Meets Convenience</h4>
+                        <h4>Find your perfect place to call home</h4>
                         <h1>Home <em> </em> Rent</h1>
 
                     </div>
@@ -110,7 +112,7 @@
 
 
         <!-- ================ start banner form ================= -->
-        <form action= "{{route('flat-list')}}" method="get" class="form-search form-search-position">
+        <form action="{{ route('flat-list') }}" method="get" class="form-search form-search-position">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 gutters-19">
@@ -153,11 +155,11 @@
                     </div>
 
                     <div class="col-lg-4 gutters-19">
-                        
-                            <div class="form-group">
-                                <button class="button button-form" type="submit">Search Now</button>
-                            </div>
-                        
+
+                        <div class="form-group">
+                            <button class="button button-form" type="submit">Search Now</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -236,7 +238,7 @@
                                 <p>A cozy 1100 square feet flat in the heart of Mohammadpur, with two beds and two
                                     baths.</p>
 
-                                <a class="card-explore__link" href="{{ route('room-details2') }}">View Details <i
+                                <a class="card-explore__link" href="{{ route('room-details3') }}">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
@@ -269,7 +271,7 @@
                     <li><img src="img/home/bath.png" alt="size-icon"> 4 baths</li>
                   </ul>-->
                                 </p>
-                                <a class="card-explore__link" href="{{ route('room-details') }}">View Details <i
+                                <a class="card-explore__link" href="{{ route('room-details3') }}">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
@@ -497,7 +499,7 @@
                                 </div>
                                 <p>Technical expert, responsible for the creation, deployment and creative direction
                                     of the project</p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -512,10 +514,11 @@
                                     <h3>Sami Ibn Rashid</h3>
                                     <p>Developer</p>
                                 </div>
-                                <p>UI/UX specialist, responsible for creating intuitive user interface and ensuring completion 
+                                <p>UI/UX specialist, responsible for creating intuitive user interface and ensuring
+                                    completion
                                     of the project.
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -531,8 +534,8 @@
                                     <p>Developer</p>
                                 </div>
                                 <p>Designer, responsible for producing written content and researching and executing
-                                 visual aspects of the project.</p>
-                                
+                                    visual aspects of the project.</p>
+
                             </div>
                         </div>
                     </div>
