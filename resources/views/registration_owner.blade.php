@@ -40,31 +40,31 @@
               
               <div class="form-group first">
                 <label for="username">First Name</label>
-                <input type="text" class="form-control" placeholder="John" id="firstname">
+                <input type="text" class="form-control" placeholder="" id="firstname">
               </div>
               <div class="form-group first">
                 <label for="username">Last Name</label>
-                <input type="text" class="form-control" placeholder="Smith" id="lastname">
+                <input type="text" class="form-control" placeholder="" id="lastname">
               </div>
               <div class="form-group first">
                 <label for="username">Email</label>
-                <input type="text" class="form-control" placeholder="your-email@gmail.com" id="email">
+                <input type="text" class="form-control" placeholder="" id="email">
               </div>
               <div class="form-group first">
                 <label for="username">NID</label>
-                <input type="text" class="form-control" placeholder="Your NID" id="nid">
+                <input type="text" class="form-control" placeholder="" id="nid">
               </div>
               <div class="form-group first">
                 <label for="username">Phone</label>
-                <input type="tel" class="form-control" placeholder="+880" id="phone">
+                <input type="tel" class="form-control" placeholder="" id="phone">
               </div>
               <div class="form-group first">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" placeholder="Your Password" id="password">
+                <input type="password" class="form-control" placeholder="" id="password">
               </div>
               <div class="form-group last mb-3">
                 <label for="username">Confirm Password</label>
-                <input type="password" class="form-control" placeholder="Confirm Password" id="confirm">
+                <input type="password" class="form-control" placeholder="" id="confirm">
               </div>
 
             </form>

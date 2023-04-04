@@ -39,11 +39,11 @@
             <form action="#" method="post">
             <div class="form-group first">
                 <label for="phone">Phone Number</label>
-                <input type="tel" class="form-control" placeholder="+880" id="phone">
+                <input type="tel" class="form-control" placeholder="" id="phone">
               </div>
               <div class="form-group last mb-3">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" placeholder="Your Password" id="password">
+                <input type="password" class="form-control" placeholder="" id="password">
               </div>
               
               <div class="d-flex mb-5 align-items-center">

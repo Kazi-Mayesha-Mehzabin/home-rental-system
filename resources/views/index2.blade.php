@@ -29,7 +29,7 @@
                     <div id="logo">
                         <a href="index.html"><img style="height:70px;" src="img/home/logo.png" alt=""
                                 title="" /></a>
-                        <a style="color:#000000; font-size:25px;font-family: "Playfair Display", serif;"><b>Home
+                        <a style="color:#b58c52; font-size:25px; font-family: 'Playfair Display', serif;"><b>Home
                                 Rent</b></a>
                     </div>
                     <div class="ml-auto d-none d-md-block d-md-flex">
