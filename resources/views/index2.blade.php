@@ -223,7 +223,7 @@
                                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/Mohammadpur,+Dhaka/@23.764598,90.3509938,15z/data=!3m1!4b1!4m6!3m5!1s0x3755c09f9ba3d447:0x1babce9f1c6c95a3!8m2!3d23.7661639!4d90.3588734!16s%2Fm%2F02phgj5"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
@@ -284,7 +284,7 @@
                                 <h3 class="card-explore__price">৳19,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/Dhanmondi,+Dhaka+1205/@23.74705,90.3670858,15z/data=!3m1!4b1!4m6!3m5!1s0x3755b8b33cffc3fb:0x4a826f475fd312af!8m2!3d23.7461495!4d90.3742307!16s%2Fm%2F02phgcq"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
@@ -312,7 +312,7 @@
                                 <h3 class="card-explore__price">৳16,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/Mirsharai/@22.767116,91.5594576,14z/data=!3m1!4b1!4m6!3m5!1s0x37533714e1dc3c01:0xea6d667f3606eb3d!8m2!3d22.773039!4d91.5741517!16s%2Fm%2F028c46d"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
@@ -338,7 +338,7 @@
                                 <h3 class="card-explore__price">৳12,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/Basundhara+Residential+Area,+Dhaka/@23.8195825,90.4368029,14z/data=!3m1!4b1!4m6!3m5!1s0x3755c62fce7d991f:0xacfaf1ac8e944c05!8m2!3d23.8191441!4d90.4525954!16s%2Fg%2F1yfdrwxvj"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
@@ -364,7 +364,7 @@
                                 <h3 class="card-explore__price">৳11,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/Gulshan,+Dhaka/@23.789747,90.3928819,14z/data=!3m1!4b1!4m6!3m5!1s0x3755c7a0f70deb73:0x30c36498f90fe23!8m2!3d23.7924961!4d90.4078058!16s%2Fm%2F02phgdd"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
@@ -390,16 +390,16 @@
                                 <h3 class="card-explore__price">৳20,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/Lakhaura/@24.950621,91.8790121,14.25z/data=!4m6!3m5!1s0x3750559f6e5d7ab1:0x9b9bfd3dc0ed8b04!8m2!3d24.9441117!4d91.8505067!16s%2Fg%2F11fqzmqk40"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
 
                                     </a>
-                                    <h6 style="margin-left:5px;">Durgapur, Sylhet</h6>
+                                    <h6 style="margin-left:5px;">Lakhuara, Sylhet</h6>
 
                                 </div>
-                                <p>A deluxe 1800 square feet apartment in Durgapur, Sylhet, with four beds and
+                                <p>A picturesque 1800 square feet apartment in Lakhuara, Sylhet, with four beds and
                                     three baths.</p>
                                 <a class="card-explore__link" href="#">View Details <i
                                         class="ti-arrow-right"></i></a>
@@ -416,7 +416,7 @@
                                 <h3 class="card-explore__price">৳18,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0/www.google.com/maps/place/Dhanmondi,+Dhaka+1205/@23.74705,90.3670858,15z/data=!3m1!4b1!4m6!3m5!1s0x3755b8b33cffc3fb:0x4a826f475fd312af!8m2!3d23.7461495!4d90.3742307!16s%2Fm%2F02phgcq"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
@@ -442,16 +442,16 @@
                                 <h3 class="card-explore__price">৳15,000 <sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">Apartment</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="https://www.google.com/maps/place/Kotwali,+Chattogram/@22.3394155,91.8120737,14z/data=!3m1!4b1!4m6!3m5!1s0x30acd8a71c5c3451:0x8145d1408572eb24!8m2!3d22.3414146!4d91.8269573!16s%2Fm%2F02phg7l"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
                                     </a>
-                                    <h6 style="margin-left:5px;">Varuakhali, Cox's Bazar</h6>
+                                    <h6 style="margin-left:5px;">Kotwali, Cox's Bazar</h6>
 
                                 </div>
 
-                                <p>A secure 1200 square feet flat in the quiet area of Varuakhali, with two beds and
+                                <p>A secure 1200 square feet flat in the quiet area of Kotwali, with two beds and
                                     one bath.</p>
                                 <a class="card-explore__link" href="#">View Details <i
                                         class="ti-arrow-right"></i></a>
@@ -491,12 +491,13 @@
                                 <img height:74px; style="border-radius:50px;" src="img/home/me.jpeg" alt="">
                             </div>
                             <div class="media-body">
-                                <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum
-                                    libero illo repell endus!</p>
                                 <div class="testi-carousel__intro">
                                     <h3>Kazi Mayesha Mehzabin</h3>
                                     <p>Developer</p>
                                 </div>
+                                <p>Technical expert, responsible for the creation, deployment and creative direction
+                                    of the project</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -507,12 +508,14 @@
                                 <img style="border-radius:50px;" src="img/home/sami.jpeg" alt="">
                             </div>
                             <div class="media-body">
-                                <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum
-                                    libero illo repell endus!</p>
                                 <div class="testi-carousel__intro">
                                     <h3>Sami Ibn Rashid</h3>
                                     <p>Developer</p>
                                 </div>
+                                <p>UI/UX specialist, responsible for creating intuitive user interface and ensuring completion 
+                                    of the project.
+                                </p>
+                                
                             </div>
                         </div>
                     </div>
@@ -523,12 +526,13 @@
                                 <img style="height:74px; border-radius:50px"src="img/home/faria.jpg" alt="">
                             </div>
                             <div class="media-body">
-                                <p>Incidunt deleniti blanditiis quas aperiam recusandae consillo ullam quibusdam cum
-                                    libero illo repell endus!</p>
                                 <div class="testi-carousel__intro">
                                     <h3>Faria Anjum</h3>
                                     <p>Developer</p>
                                 </div>
+                                <p>Designer, responsible for producing written content and researching and executing
+                                 visual aspects of the project.</p>
+                                
                             </div>
                         </div>
                     </div>
