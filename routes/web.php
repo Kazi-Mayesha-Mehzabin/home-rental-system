@@ -35,4 +35,9 @@ Route::get('/bookNow', [HomepageController:: class, 'goToBookingPage'] )-> name(
 Route::get('/call-now', [HomepageController:: class, 'goToCallingPage'] )-> name("callNow");
 Route::get('/flat-list', [HomepageController:: class, 'goToFlatListPage'] )-> name("flat-list");
 Route::get('/payment', [HomepageController:: class, 'goToPaymentPage'] )-> name("payment");
+Route::get('/owner-dashboard', [HomepageController:: class, 'goToOwnerDashboard'] )-> name("owner-dashboard");
+
+
+Route::get('/save-owner', [HomepageController:: class, 'saveOwner'] )-> name("save-owner");
+Route::get('/login-owner', [HomepageController:: class, 'loginOwner'] )-> name("login-owner");
 

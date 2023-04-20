@@ -36,39 +36,37 @@
             </div>
             <h3>Register as <strong>Owner</strong></h3>
             <p class="mb-4">Register as an owner to start listing your properties now!</p>
-            <form action="#" method="post">
+            <form action="/save-owner" method="get">
               
               <div class="form-group first">
                 <label for="username">First Name</label>
-                <input type="text" class="form-control" placeholder="" id="firstname">
+                <input type="text" class="form-control" placeholder="" name="name">
               </div>
-              <div class="form-group first">
-                <label for="username">Last Name</label>
-                <input type="text" class="form-control" placeholder="" id="lastname">
-              </div>
+              
               <div class="form-group first">
                 <label for="username">Email</label>
-                <input type="text" class="form-control" placeholder="" id="email">
+                <input type="text" class="form-control" placeholder="" name="email">
               </div>
               <div class="form-group first">
                 <label for="username">NID</label>
-                <input type="text" class="form-control" placeholder="" id="nid">
+                <input type="text" class="form-control" placeholder="" name="nid">
               </div>
               <div class="form-group first">
                 <label for="username">Phone</label>
-                <input type="tel" class="form-control" placeholder="" id="phone">
+                <input type="tel" class="form-control" placeholder="" name="phone">
               </div>
               <div class="form-group first">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" placeholder="" id="password">
+                <input type="password" class="form-control" placeholder="" name="password">
               </div>
               <div class="form-group last mb-3">
                 <label for="username">Confirm Password</label>
-                <input type="password" class="form-control" placeholder="" id="confirm">
+                <input type="password" class="form-control" placeholder="" name="confirm">
               </div>
-
+              <input type="submit" value="Register" class="btn btn-block btn-primary">
+              
             </form>
-             <a href="{{ route('index2') }}" ><input type="submit" value="Register" class="btn btn-block btn-primary"></a>
+            
 
             
           </div>

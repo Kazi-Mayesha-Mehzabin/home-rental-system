@@ -6,6 +6,9 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Http\Request;
+use App\Models\Owner;
+use Illuminate\Support\Facades\DB;
 
 class HomepageController extends Controller
 {
@@ -52,6 +55,47 @@ class HomepageController extends Controller
     public function goToPaymentPage(){
         return view ('payment');
     }
+    public function saveOwner(Request $request){
+        
+       $owner = new Owner();
+       $owner->name = $request->name;
+       $owner->phone_num = $request->phone;
+       $owner->nid = $request->nid;
+       $owner->email = $request->email;
+       $owner->password = $request->password;
+
+       $owner->save();
+       return view ('login_owner');
+      
+
+    }
+    public function loginOwner(Request $request){
+        $phone = $request->phone;
+        $pass = $request->password;
+
+        $owner = DB::table('owner')
+        ->where ('phone_num','=',$phone)
+        ->where ('password','=',$pass)
+        ->first();
+
+       if($owner)
+       {
+        return view ('owner-dashboard',['owner'=>$owner]);
+       }
+       else{
+        return view ('login_owner');
+       }
+    }
+
+    public function goToOwnerDashboard(){
+        return view ('owner-dashboard');
+    }
+       
+
+       
+       
+ 
+     
     
     
 }
