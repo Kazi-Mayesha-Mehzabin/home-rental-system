@@ -41,7 +41,12 @@
                     </tbody>
                 </table>
             </div>
-
+            <div class="row mb-5 mr-2 align-items-end justify-content-end">
+                <button type="button" class="btn btn-primary">
+                    Add New
+                </button>
+            </div>
+            
 
         </div>
 

@@ -90,7 +90,11 @@ class HomepageController extends Controller
     public function goToOwnerDashboard(){
         return view ('owner-dashboard');
     }
-       
+    
+
+    public function goToAddFlat(){
+        return view ('add_flat');
+    }
 
        
        

@@ -41,3 +41,5 @@ Route::get('/owner-dashboard', [HomepageController:: class, 'goToOwnerDashboard'
 Route::get('/save-owner', [HomepageController:: class, 'saveOwner'] )-> name("save-owner");
 Route::get('/login-owner', [HomepageController:: class, 'loginOwner'] )-> name("login-owner");
 
+
+Route::get('/add-flat', [HomepageController:: class, 'goToAddFlat'] )-> name("add-flat");
