@@ -30,19 +30,19 @@
           
           <div class="col">
             <h3>Add New Property</h3>
-            <form action="#" method="get">
+            <form action="/save-flat" method="get">
               
               <div class="form-group first">
                 <label for="flat-name">Flat Name</label>
-                <input type="text" class="form-control" placeholder="" id="flat-name" name="flat-name">
+                <input type="text" class="form-control" placeholder="" id="flat-name" name="flat_name">
               </div>
               <div class="form-group first">
                 <label for="house">Flat No.</label>
-                <input type="text" class="form-control" placeholder="" id="house" name="house">
+                <input type="text" class="form-control" placeholder="" id="house" name="flat_no">
               </div>
               <div class="form-group first">
                 <label for="road">Road No.</label>
-                <input type="text" class="form-control" placeholder="" id="road" name="road">
+                <input type="text" class="form-control" placeholder="" id="road" name="road_no">
               </div>
               <div class="form-group first">
                 <label for="area">Area</label>
@@ -60,9 +60,10 @@
                 <label for="rent">Rent</label>
                 <input type="number" class="form-control" placeholder="" id="rent" name="rent">
               </div>
+              <input type="hidden" value = "{{ request('owner_id') }}" class="form-control" placeholder="" id="rent" name="owner_id">
               <div class="form-group first">
                 <label for="date">Available Date</label>
-                <input type="date" class="form-control" value="" id="date" name="date">
+                <input type="date" class="form-control" value="" id="date" name="available_date">
               </div>
               <div class="form-group last mb-3">
                 <label for="image" class="file">Add Images</label>

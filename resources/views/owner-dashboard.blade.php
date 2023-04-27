@@ -1,6 +1,3 @@
-
-
-
 <!doctype html>
 <html lang="en">
 
@@ -10,7 +7,8 @@
     <link rel="icon" type="image/png" href="..dashboard/assets/img/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Dashboard</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
@@ -25,7 +23,7 @@
 <body>
     <section class="ftco-section">
         <div class="container">
-            <h2>Hello, {{$owner->name}} . Welcome to your dashboard.</h2>
+            <h2>Hello, {{ $owner->name }} . Welcome to your dashboard.</h2>
             <div class="card-body table-full-width table-responsive">
                 <table class="table table-hover table-striped">
                     <thead style="background-color: #01C531;">
@@ -37,16 +35,36 @@
 
                     </thead>
                     <tbody>
-                      
+                        @foreach ($flats as $flat) 
+                       <tr>
+                       <td>
+                       {{ $flat->flat_name}}
+                       </td>
+                       <td>
+                       {{ $flat->area}}
+                       </td>
+
+                       <td>
+                       {{ $flat->rent}}
+                       </td>
+
+                       <td>
+                       {{ $flat->available_date}}
+                       </td>
+                       
+                       </tr>
+
+                        @endforeach
                     </tbody>
                 </table>
             </div>
             <div class="row mb-5 mr-2 align-items-end justify-content-end">
-                <button type="button" class="btn btn-primary">
-                    Add New
-                </button>
+                <a href=" {{ route('add-flat', ['owner_id' => $owner->id]) }}"><button type="button"
+                        class="btn btn-primary">
+                        Add New
+                    </button></a>
             </div>
-            
+
 
         </div>
 

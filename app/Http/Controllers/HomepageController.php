@@ -8,6 +8,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use App\Models\Owner;
+use App\Models\Flat;
 use Illuminate\Support\Facades\DB;
 
 class HomepageController extends Controller
@@ -15,7 +16,9 @@ class HomepageController extends Controller
    
     public function viewIndexPage(){
       
-        return view ('index2');
+        $flats = DB::table('flats')
+        ->get();
+        return view ('index2',['flats'=>$flats]);
 
 
     }
@@ -80,7 +83,12 @@ class HomepageController extends Controller
 
        if($owner)
        {
-        return view ('owner-dashboard',['owner'=>$owner]);
+         $flats = DB::table('flats')
+        ->where ('owner_id','=',$owner->id)
+        ->get();
+        
+        return view ('owner-dashboard',['owner'=>$owner, 'flats'=>$flats]);
+
        }
        else{
         return view ('login_owner');
@@ -95,6 +103,33 @@ class HomepageController extends Controller
     public function goToAddFlat(){
         return view ('add_flat');
     }
+
+    public function saveFlat(Request $request){
+        
+        $flat = new Flat();
+        $flat->owner_id = $request->owner_id;
+        $flat->flat_name = $request->flat_name;
+        $flat->flat_no = $request->flat_no;
+        $flat->road_no = $request->road_no;
+        $flat->division = $request->division;
+        $flat->rent = $request->rent;
+        $flat->area = $request->area;
+        $flat->available_date = $request->available_date;
+        
+ 
+        $flat->save();
+        $owner = DB::table('owner')
+        ->where ('id','=',$request->owner_id)
+        ->first();
+        $flats = DB::table('flats')
+        ->where ('owner_id','=',$request->owner_id)
+        ->get();
+        return view ('owner-dashboard',['owner'=>$owner, 'flats'=>$flats]);
+        
+       
+       
+ 
+     }
 
        
        
