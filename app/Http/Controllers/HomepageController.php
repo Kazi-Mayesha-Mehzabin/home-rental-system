@@ -9,6 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use App\Models\Owner;
 use App\Models\Flat;
+use App\Models\Renter;
 use Illuminate\Support\Facades\DB;
 
 class HomepageController extends Controller
@@ -72,6 +73,45 @@ class HomepageController extends Controller
       
 
     }
+    public function saveRenter(Request $request){
+        
+        $renter = new Renter();
+        $renter->name = $request->name;
+        $renter->phone_num = $request->phone;
+        $renter->nid = $request->nid;
+        $renter->profession = $request->profession;
+        $renter->password = $request->password;
+ 
+        $renter->save();
+        $flats = DB::table('flats')
+        ->get();
+       
+        return view ('index2',['renter'=>$renter,'flats'=>$flats]);
+       
+       
+ 
+     }
+     public function loginRenter(Request $request){
+        $phone = $request->phone;
+        $pass = $request->password;
+
+        $renter = DB::table('renter')
+        ->where ('phone_num','=',$phone)
+        ->where ('password','=',$pass)
+        ->first();
+
+       if($renter)
+       {
+        $flats = DB::table('flats')
+        ->get();
+       
+        return view ('index2',['renter'=>$renter,'flats'=>$flats]);
+
+       }
+       else{
+        return view ('login_renter');
+       }
+    }
     public function loginOwner(Request $request){
         $phone = $request->phone;
         $pass = $request->password;
@@ -94,7 +134,7 @@ class HomepageController extends Controller
         return view ('login_owner');
        }
     }
-
+    
     public function goToOwnerDashboard(){
         return view ('owner-dashboard');
     }
@@ -115,6 +155,14 @@ class HomepageController extends Controller
         $flat->rent = $request->rent;
         $flat->area = $request->area;
         $flat->available_date = $request->available_date;
+
+        if ($request->file('image')) {
+            $file = $request->file('image');
+            $filename = time() . '_' . $file->getClientOriginalName();
+            $location = 'files';
+            $file->move($location, $filename);
+            $flat->image = $filename;
+        }
         
  
         $flat->save();

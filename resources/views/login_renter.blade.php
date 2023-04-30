@@ -36,14 +36,14 @@
             </div>
             <h3>Log in as <strong>Renter</strong></h3>
             <p class="mb-4">Log in as a renter to browse through properties and view your rented homes</p>
-            <form action="#" method="post">
-            <div class="form-group first">
+            <form action="/login-renter" method="get">
+              <div class="form-group first">
                 <label for="phone">Phone Number</label>
-                <input type="tel" class="form-control" placeholder="" id="phone">
+                <input type="tel" class="form-control" placeholder="" name="phone">
               </div>
               <div class="form-group last mb-3">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" placeholder="" id="password">
+                <input type="password" class="form-control" placeholder="" name="password">
               </div>
               
               <div class="d-flex mb-5 align-items-center">
@@ -54,10 +54,10 @@
                 <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
               </div>
 
-             
+              <input type="submit" value="Log In" class="btn btn-block btn-primary">
 
             </form>
-             <a href="{{ route('index2') }}" ><input type="submit" value="Log In" class="btn btn-block btn-primary"></a>
+            
 
             
           </div>

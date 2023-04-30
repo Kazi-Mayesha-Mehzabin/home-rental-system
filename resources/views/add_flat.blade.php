@@ -30,7 +30,8 @@
           
           <div class="col">
             <h3>Add New Property</h3>
-            <form action="/save-flat" method="get">
+            <form enctype="multipart/form-data" action="{{ route('save-flat') }}" method="post">
+            @csrf
               
               <div class="form-group first">
                 <label for="flat-name">Flat Name</label>
@@ -68,7 +69,7 @@
               <div class="form-group last mb-3">
                 <label for="image" class="file">Add Images</label>
                 <br>
-                <input type="file" class="form-control" accept="image/*" id="image" name="image" multiple>
+                <input type="file" class="form-control" accept="image/*" id="image" name="image">
               </div>
               <input type="submit" value="Add New Flat" class="btn btn-block btn-success">
             </form>

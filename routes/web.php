@@ -39,8 +39,10 @@ Route::get('/owner-dashboard', [HomepageController:: class, 'goToOwnerDashboard'
 
 
 Route::get('/save-owner', [HomepageController:: class, 'saveOwner'] )-> name("save-owner");
-Route::get('/save-flat', [HomepageController:: class, 'saveFlat'] )-> name("save-flat");
+Route::get('/save-renter', [HomepageController:: class, 'saveRenter'] )-> name("save-renter");
+Route::post('/save-flat', [HomepageController:: class, 'saveFlat'] )-> name("save-flat");
 Route::get('/login-owner', [HomepageController:: class, 'loginOwner'] )-> name("login-owner");
+Route::get('/login-renter', [HomepageController:: class, 'loginRenter'] )-> name("login-renter");
 
 
 Route::get('/add-flat', [HomepageController:: class, 'goToAddFlat'] )-> name("add-flat");

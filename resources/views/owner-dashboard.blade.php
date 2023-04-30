@@ -23,7 +23,7 @@
 <body>
     <section class="ftco-section">
         <div class="container">
-            <h2>Hello, {{ $owner->name }} . Welcome to your dashboard.</h2>
+            <h2>Hello, {{ $owner->name??'' }} . Welcome to your dashboard.</h2>
             <div class="card-body table-full-width table-responsive">
                 <table class="table table-hover table-striped">
                     <thead style="background-color: #01C531;">
