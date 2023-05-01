@@ -63,7 +63,7 @@
                     <div class="col-lg-7">
                         <div class="welcome-content">
                             <h2 class="mb-4"><span class="d-block">Details</span></h2>
-                            <p style="font-size:20px;">Name: Urban Green</p>
+                            <p style="font-size:20px;">Name: {{$flat->flat_name}}</p>
                             <p style="font-size:20px;">Location: Naem Road, Dhanmondi </p>
                             <p style="font-size:20px;">Room(s): 2</p>
                             <p style="font-size:20px;">Bathroom(s): 2</p>

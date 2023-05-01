@@ -27,6 +27,8 @@
             <div class="card-body table-full-width table-responsive">
                 <table class="table table-hover table-striped">
                     <thead style="background-color: #01C531;">
+                        <th style="color: #000000;">Image</th>
+
                         <th style="color: #000000;">Flat Name</th>
                         <th style="color: #000000;">Address</th>
                         <th style="color: #000000;">Rent</th>
@@ -37,6 +39,10 @@
                     <tbody>
                         @foreach ($flats as $flat) 
                        <tr>
+                       <td>
+                       <img style="height:100px; width:100px;"src="/files/{{$flat->image}}"> </img>
+                       
+                       </td>
                        <td>
                        {{ $flat->flat_name}}
                        </td>

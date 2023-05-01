@@ -11,15 +11,24 @@ use App\Models\Owner;
 use App\Models\Flat;
 use App\Models\Renter;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 
 class HomepageController extends Controller
 {
    
-    public function viewIndexPage(){
-      
+    public function viewIndexPage(Request $request){
+        $renterId=Session::get('renter_id');
+        $renter=null;
+        if(isset($renterId)){
+            $renter = DB::table('renter')
+            ->where ('id','=',$renterId)
+            ->first();
+
+        }
+       
         $flats = DB::table('flats')
         ->get();
-        return view ('index2',['flats'=>$flats]);
+        return view ('index2',['flats'=>$flats,'renter'=>$renter]);
 
 
     }
@@ -44,8 +53,12 @@ class HomepageController extends Controller
     public function goToDetailsPage2(){
         return view ('room_details2');
     }
-    public function goToDetailsPage3(){
-        return view ('room_details3');
+    public function goToDetailsPage3(Request $request){
+        $flatId = $request->flat_id; 
+        $flat = DB::table('flats')
+        ->where ('id','=',$flatId)
+        ->first();
+        return view ('room_details3',['flat'=>$flat]);
     }
     public function goToBookingPage(){
         return view ('bookNow');
@@ -105,7 +118,7 @@ class HomepageController extends Controller
         $flats = DB::table('flats')
         ->get();
        
-        return view ('index2',['renter'=>$renter,'flats'=>$flats]);
+       return  redirect()->route('index2')->with( [ 'renter_id' => $renter->id]);
 
        }
        else{

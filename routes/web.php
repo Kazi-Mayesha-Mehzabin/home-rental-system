@@ -27,8 +27,7 @@ Route::get('/registration-owner', [HomepageController:: class, 'goToOwnerRegistr
 Route::get('/registration-renter', [HomepageController:: class, 'goToRenterRegistrationPage'] )->name("register-renter");
 Route::get('/login-renter', [HomepageController:: class, 'goToRenterLoginPage'] )->name("login-renter");
 Route::get('/login-owner', [HomepageController:: class, 'goToOwnerLoginPage'] );
-Route::get('/room-details', [HomepageController:: class, 'goToDetailsPage'] )-> name("room-details");
-Route::get('/room-details2', [HomepageController:: class, 'goToDetailsPage2'] )-> name("room-details2");
+
 Route::get('/room-details3', [HomepageController:: class, 'goToDetailsPage3'] )-> name("room-details3");
 
 Route::get('/bookNow', [HomepageController:: class, 'goToBookingPage'] )-> name("bookNow");

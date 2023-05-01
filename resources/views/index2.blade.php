@@ -68,15 +68,20 @@
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
+                    @if(isset($renter))
                     <ul class="nav navbar-nav menu_nav">
+                        <li class="nav-item"><b>Hello, {{$renter->name}}</b></li>
+
+                    </ul>
+                    @else
+                     <ul class="nav navbar-nav menu_nav">
                         <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
                                 href="{{ route('login-renter') }}"><b>Log In</b></a></li>
                         <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
                                 href="{{ route('register-renter') }}"><b>Sign Up</b></a></li>
 
                     </ul>
-
-
+                    @endif
                 </div>
             </nav>
 
@@ -221,10 +226,10 @@
                       <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                         <div class="card card-explore">
                             <div class="card-explore__img">
-                                <img class="card-img" src="img/home/room2.jpg" alt="">
+                                <img class="card-img" src="/files/{{$flat->image}}" alt="">
                             </div>
                             <div class="card-body">
-                                <h3 class="card-explore__price">৳17,000 <sub>/ Per Month</sub></h3>
+                                <h3 class="card-explore__price">৳{{$flat->rent}}<sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">{{$flat->flat_name}}</a></h4>
                                 <div class="row">
                                     <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
@@ -234,7 +239,7 @@
 
 
                                     </a>
-                                    <h6 style="margin-left:5px;">Mirpur, Dhaka</h6>
+                                    <h6 style="margin-left:5px;">{{$flat->area}}, {{$flat->division}}</h6>
                                 </div>
 
                                 <p>A 1400 square feet flat with a scenic view located in Mirpur, with two beds and
@@ -245,7 +250,7 @@
                     <li><img src="img/home/bath.png" alt="size-icon"> 4 baths</li>
                   </ul>-->
                                 </p>
-                                <a class="card-explore__link" href="{{ route('room-details3') }}">View Details <i
+                                <a class="card-explore__link" href="{{ route('room-details3',['flat_id'=>$flat->id]) }}">View Details <i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>
