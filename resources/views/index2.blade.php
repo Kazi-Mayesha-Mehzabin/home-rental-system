@@ -232,7 +232,7 @@
                                 <h3 class="card-explore__price">৳{{$flat->rent}}<sub>/ Per Month</sub></h3>
                                 <h4 class="card-explore__title"><a href="#">{{$flat->flat_name}}</a></h4>
                                 <div class="row">
-                                    <a href="https://www.google.com/maps/place/23%C2%B046'02.0%22N+90%C2%B022'05.0%22E/@23.7671737,90.3678945,17z"
+                                    <a href="{{$flat->location_link}}"
                                         target="_blank">
                                         <img style="height:20px; width:20px; margin-left:10px"
                                             src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">

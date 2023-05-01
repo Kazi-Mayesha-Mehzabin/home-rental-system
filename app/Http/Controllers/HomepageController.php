@@ -175,6 +175,7 @@ class HomepageController extends Controller
         $flat->house_length = $request->house_length;
         $flat->floor_num = $request->floor_num;
         $flat->charge = $request->charge;
+        $flat->location_link = $request->location_link;
         
 
         if ($request->file('image')) {

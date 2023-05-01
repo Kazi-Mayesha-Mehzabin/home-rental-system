@@ -109,6 +109,11 @@
                                 <input type="text" class="form-control" placeholder="" id="division"
                                     name="details">
                             </div>
+                            <div class="form-group first">
+                                <label for="division">Location Link</label>
+                                <input type="text" class="form-control" placeholder="" id="division"
+                                    name="location_link">
+                            </div>
                             <div class="form-group last mb-3">
                                 <label for="image" class="file">Add Images</label>
                                 <br>
