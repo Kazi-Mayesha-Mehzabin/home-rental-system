@@ -168,6 +168,14 @@ class HomepageController extends Controller
         $flat->rent = $request->rent;
         $flat->area = $request->area;
         $flat->available_date = $request->available_date;
+        $flat->room_num = $request->room_num;
+        $flat->bathroom_num = $request->bathroom_num;
+        $flat->lift = $request->lift;
+        $flat->details = $request->details;
+        $flat->house_length = $request->house_length;
+        $flat->floor_num = $request->floor_num;
+        $flat->charge = $request->charge;
+        
 
         if ($request->file('image')) {
             $file = $request->file('image');

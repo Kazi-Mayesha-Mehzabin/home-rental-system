@@ -50,11 +50,7 @@
                                 </div>
                                 <div style="margin-top:20px;">
 
-                                    <p>A two bed flat perfect for dwelling with a soothing and refreshing environment
-                                        with
-                                        24/7 generature and water service and lift. A small study room with a book shelf for the book
-                                        lovers to
-                                        arrange the books they love.
+                                    <p>{{$flat->details}}
                                     </p>
                                 </div>
                             </div>
@@ -64,14 +60,14 @@
                         <div class="welcome-content">
                             <h2 class="mb-4"><span class="d-block">Details</span></h2>
                             <p style="font-size:20px;">Name: {{$flat->flat_name}}</p>
-                            <p style="font-size:20px;">Location: Naem Road, Dhanmondi </p>
-                            <p style="font-size:20px;">Room(s): 2</p>
-                            <p style="font-size:20px;">Bathroom(s): 2</p>
-                            <p style="font-size:20px;">Specification: 1500 (sq) feet</p>
-                            <p style="font-size:20px;">Lift: Available</p>
-                            <p style="font-size:20px;">Floor: Fifth Floor</p>
-                            <p style="font-size:20px;">Fair: ৳19,000</p>
-                            <p style="font-size:20px;">Servicing-Charge: ৳2,500</p>
+                            <p style="font-size:20px;">Location: {{$flat->area}} </p>
+                            <p style="font-size:20px;">Room(s): {{$flat->room_num}}</p>
+                            <p style="font-size:20px;">Bathroom(s): {{$flat->bathroom_num}}</p>
+                            <p style="font-size:20px;">Specification:  {{$flat->house_length}} sq(feet)</p>
+                            <p style="font-size:20px;">Lift: {{$flat->lift}}</p>
+                            <p style="font-size:20px;">Floor: {{$flat->floor_num}}</p>
+                            <p style="font-size:20px;">Fair: ৳ {{$flat->rent}}</p>
+                            <p style="font-size:20px;">Servicing-Charge: ৳{{$flat->charge}}</p>
 
 
                             <a class="button button--active home-banner-btn mt-4" href="tel:01747897071"  target="_blank">Call Now</a>

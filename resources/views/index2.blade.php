@@ -242,8 +242,7 @@
                                     <h6 style="margin-left:5px;">{{$flat->area}}, {{$flat->division}}</h6>
                                 </div>
 
-                                <p>A 1400 square feet flat with a scenic view located in Mirpur, with two beds and
-                                    three baths.
+                                <p>{{$flat->details}}
                                     <!--<ul>
                     <li><img src="img/home/size.png" alt="size-icon"> 1100 sqft</li>
                     <li><img src="img/home/bed.png" alt="size-icon"> 3 beds</li>
