@@ -368,7 +368,8 @@ input[type="radio"] {
                     <p class="fw-bold">Payment Details</p>
                     <p class="dis mb-3">Complete your purchase by providing your payment details</p>
                 </div>
-                <form action="">
+                <form action="{{ route('booked-flat') }}" method="post">
+                @csrf
                     <div class="mb-3">
                         <p class="dis fw-bold mb-2">Email address</p>
                         <input class="form-control" type="email">
@@ -396,19 +397,21 @@ input[type="radio"] {
                             <div class="d-flex">
                                 <input class="form-control zip" type="text" placeholder="ZIP">
                                 <input class="form-control state" type="text" placeholder="State">
+                                <input class="form-control state" type="hidden" name="amount" value="{{$flat->rent}}">
+                                <input class="form-control state" type="hidden" name="flat_id" value="{{$flat->id}}">
                             </div>
                             
                             <div class="d-flex flex-column dis">
                                 <div class="d-flex align-items-center justify-content-between mb-2">
                                     <p>Subtotal</p>
-                                    <p><span ></span>BDT 20,000</p>
+                                    <p><span ></span>BDT {{$flat->rent}}</p>
                                 </div>
                               
                                 <div class="d-flex align-items-center justify-content-between mb-2">
                                     <p class="fw-bold">Total</p>
-                                    <p class="fw-bold"><span ></span>BDT 20,000</p>
+                                    <p class="fw-bold"><span ></span>BDT {{$flat->rent}}</p>
                                 </div>
-                                <div class="btn btn-primary mt-2"> <span >Pay Now</span> 
+                                <div class="btn btn-primary mt-2"> <span ><input type="submit" value="Pay Now" class="btn btn-block btn-success"></span> 
                                 </div>
                             </div>
                         </div>

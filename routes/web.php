@@ -27,6 +27,7 @@ Route::get('/registration-owner', [HomepageController:: class, 'goToOwnerRegistr
 Route::get('/registration-renter', [HomepageController:: class, 'goToRenterRegistrationPage'] )->name("register-renter");
 Route::get('/login-renter', [HomepageController:: class, 'goToRenterLoginPage'] )->name("login-renter");
 Route::get('/login-owner', [HomepageController:: class, 'goToOwnerLoginPage'] );
+Route::get('/logout-renter', [HomepageController:: class, 'goToLogOutPage'] )->name('logout-renter');
 
 Route::get('/room-details3', [HomepageController:: class, 'goToDetailsPage3'] )-> name("room-details3");
 
@@ -40,6 +41,7 @@ Route::get('/owner-dashboard', [HomepageController:: class, 'goToOwnerDashboard'
 Route::get('/save-owner', [HomepageController:: class, 'saveOwner'] )-> name("save-owner");
 Route::get('/save-renter', [HomepageController:: class, 'saveRenter'] )-> name("save-renter");
 Route::post('/save-flat', [HomepageController:: class, 'saveFlat'] )-> name("save-flat");
+Route::post('/booked-flat', [HomepageController:: class, 'saveBookedFlats'] )-> name("booked-flat");
 Route::get('/login-owner', [HomepageController:: class, 'loginOwner'] )-> name("login-owner");
 Route::get('/login-renter', [HomepageController:: class, 'loginRenter'] )-> name("login-renter");
 

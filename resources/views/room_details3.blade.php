@@ -34,18 +34,14 @@
                         <div class="row no-gutters welcome-images">
                             <div class="col-sm-7">
                                 <div class="card">
-                                    <img class="" src="img/home/draw.jpg" alt="Card image cap">
+                                    <img style="height:500px; width:500px" class="" src="/files/{{ $flat->image }}" alt="Card image cap">
                                 </div>
                             </div>
-                            <div class="col-sm-5">
-                                <div class="card">
-                                    <img style="height:255px;"class="" src="img/home/study.jpg" alt="Card image cap">
-                                </div>
-                            </div>
+                           
                             <div class="col-lg-12">
                                 <div class="card">
-                                    <img style=" height:300px;" class="" src="img/home/dine.jpg"
-                                        alt="Card image cap">
+                                    
+                                       
 
                                 </div>
                                 <div style="margin-top:20px;">
@@ -66,13 +62,13 @@
                             <p style="font-size:20px;">Specification:  {{$flat->house_length}} sq(feet)</p>
                             <p style="font-size:20px;">Lift: {{$flat->lift}}</p>
                             <p style="font-size:20px;">Floor: {{$flat->floor_num}}</p>
-                            <p style="font-size:20px;">Fair: ৳ {{$flat->rent}}</p>
+                            <p style="font-size:20px;">Rent: ৳ {{$flat->rent}}</p>
                             <p style="font-size:20px;">Servicing-Charge: ৳{{$flat->charge}}</p>
 
 
                             <a class="button button--active home-banner-btn mt-4" href="tel:01747897071"  target="_blank">Call Now</a>
                             <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
-                                href="{{ route('payment') }}"  target="_blank">Book Now</a>
+                                href="{{ route('payment',['flat_id'=>$flat->id]) }}"  target="_blank">Book Now</a>
                         </div>
                     </div>
                 </div>

@@ -17,13 +17,18 @@
     <link href="dashboard/assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="dashboard/assets/css/demo.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
     <section class="ftco-section">
         <div class="container">
-            <h2>Hello, {{ $owner->name??'' }} . Welcome to your dashboard.</h2>
+            <h2>Hello, {{ $owner->name ?? '' }} . Welcome to your dashboard.</h2>
             <div class="card-body table-full-width table-responsive">
                 <table class="table table-hover table-striped">
                     <thead style="background-color: #01C531;">
@@ -33,33 +38,47 @@
                         <th style="color: #000000;">Address</th>
                         <th style="color: #000000;">Rent</th>
                         <th style="color: #000000;">Available Date</th>
+                        <th style="color: #000000;">Action</th>
+                        
+
+
 
 
                     </thead>
                     <tbody>
-                        @foreach ($flats as $flat) 
-                       <tr>
-                       <td>
-                       <img style="height:100px; width:100px;"src="/files/{{$flat->image}}"> </img>
-                       
-                       </td>
-                       <td>
-                       {{ $flat->flat_name}}
-                       </td>
-                       <td>
-                       {{ $flat->area}}
-                       </td>
+                        @foreach ($flats as $flat)
+                            <tr>
+                                <td>
+                                    <img style="height:100px; width:100px;"src="/files/{{ $flat->image }}"> </img>
 
-                       <td>
-                       {{ $flat->rent}}
-                       </td>
+                                </td>
+                                <td>
+                                    {{ $flat->flat_name }}
+                                </td>
+                                <td>
+                                    {{ $flat->area }}
+                                </td>
 
-                       <td>
-                       {{ $flat->available_date}}
-                       </td>
-                       
-                       </tr>
+                                <td>
+                                    {{ $flat->rent }}
+                                </td>
 
+                                <td>
+                                    {{ $flat->available_date }}
+                                </td>
+                                <td>
+                                    <div class="row align-items-center" >
+                                        <div class="row mb-5 mr-2 align-items-end justify-content-end">
+                                            <i style="margin-right:20px;" class="fa fa-trash"></i>
+                                        </div>
+                                        <div class="row mb-5 mr-2 align-items-end justify-content-end">
+                                            <i style="margin-right:0px;" class="fa fa-edit"></i>
+                                        </div>
+                                    </div>
+                                </td>
+
+
+                            </tr>
                         @endforeach
                     </tbody>
                 </table>
@@ -72,7 +91,8 @@
             </div>
 
 
-        </div>
+
+
 
     </section>
 

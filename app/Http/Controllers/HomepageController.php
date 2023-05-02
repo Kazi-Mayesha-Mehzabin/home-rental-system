@@ -10,14 +10,19 @@ use Illuminate\Http\Request;
 use App\Models\Owner;
 use App\Models\Flat;
 use App\Models\Renter;
+use App\Models\Payment;
+use App\Models\Booking;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
 
 class HomepageController extends Controller
 {
    
     public function viewIndexPage(Request $request){
-        $renterId=Session::get('renter_id');
+       
+        $data = json_decode(Storage::get('data.json'), true);
+       if(isset($data)) $renterId = $data['renter_id'];
         $renter=null;
         if(isset($renterId)){
             $renter = DB::table('renter')
@@ -26,12 +31,49 @@ class HomepageController extends Controller
 
         }
        
-        $flats = DB::table('flats')
-        ->get();
+        if(isset($request->search_keyword)){
+            
+            $flats = DB::table('flats')
+            ->where('area', 'like', '%' . $request->search_keyword . '%')
+            ->get();
+        }
+        else{
+            $flats = DB::table('flats')
+            ->get();
+        }
         return view ('index2',['flats'=>$flats,'renter'=>$renter]);
 
 
     }
+
+    public function goToLogOutPage(Request $request){
+        $data = ['renter_id' =>''];
+        Storage::put('data.json', json_encode($data));
+        $data = json_decode(Storage::get('data.json'), true);
+       if(isset($data)) $renterId = $data['renter_id'];
+        $renter=null;
+        if(isset($renterId)){
+            $renter = DB::table('renter')
+            ->where ('id','=',$renterId)
+            ->first();
+
+        }
+       
+        if(isset($request->search_keyword)){
+            
+            $flats = DB::table('flats')
+            ->where('area', 'like', '%' . $request->search_keyword . '%')
+            ->get();
+        }
+        else{
+            $flats = DB::table('flats')
+            ->get();
+        }
+        return view ('index2',['flats'=>$flats,'renter'=>$renter]);
+
+
+    }
+
     public function goToLoginPage(){
         return view ('login');
     }
@@ -67,10 +109,14 @@ class HomepageController extends Controller
         return view ('callNow');
     }
     public function goToFlatListPage(){
-        return view ('flatlist');
+        return view ('index2');
     }
-    public function goToPaymentPage(){
-        return view ('payment');
+    public function goToPaymentPage(Request $request){
+
+        $flat = DB::table('flats')
+        ->where ('id','=',$request->flat_id)
+        ->first();
+        return view ('payment',['flat'=>$flat]);
     }
     public function saveOwner(Request $request){
         
@@ -117,7 +163,9 @@ class HomepageController extends Controller
        {
         $flats = DB::table('flats')
         ->get();
-       
+       // Save data to a file on the local storage
+      $data = ['renter_id' => $renter->id];
+      Storage::put('data.json', json_encode($data));
        return  redirect()->route('index2')->with( [ 'renter_id' => $renter->id]);
 
        }
@@ -197,6 +245,38 @@ class HomepageController extends Controller
         return view ('owner-dashboard',['owner'=>$owner, 'flats'=>$flats]);
         
        
+       
+ 
+     }
+     public function saveBookedFlats(Request $request){
+        $payment = new Payment();
+        $book = new Booking();
+        $data = json_decode(Storage::get('data.json'), true);
+        if(isset($data)){
+            $renterId = $data['renter_id'];
+            $payment->renter_id = $renterId;
+
+        } 
+        $payment->amount = $request->amount;
+        $payment->method = 'Online Payment';
+        $payment->save();
+        $data = json_decode(Storage::get('data.json'), true);
+        if(isset($data)){
+            $renterId = $data['renter_id'];
+            $book->renter_id = $renterId;
+            $book->flat_id = $request->flat_id;
+            $book->payment_id = $payment->id;
+        } 
+        $book->save();
+        return  redirect()->route('index2');
+
+        
+       
+        
+       
+ 
+       
+  
        
  
      }

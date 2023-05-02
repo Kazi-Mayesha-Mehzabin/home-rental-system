@@ -68,19 +68,20 @@
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
-                    @if(isset($renter))
-                    <ul class="nav navbar-nav menu_nav">
-                        <li class="nav-item"><b>Hello, {{$renter->name}}</b></li>
-
-                    </ul>
+                    @if (isset($renter))
+                        <ul class="nav navbar-nav menu_nav">
+                            <li class="nav-item"><b>Hello, {{ $renter->name }}</b></li>
+                            <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                    href="{{ route('logout-renter') }}"><b>Log Out</b></a></li>
+                        </ul>
                     @else
-                     <ul class="nav navbar-nav menu_nav">
-                        <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
-                                href="{{ route('login-renter') }}"><b>Log In</b></a></li>
-                        <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
-                                href="{{ route('register-renter') }}"><b>Sign Up</b></a></li>
+                        <ul class="nav navbar-nav menu_nav">
+                            <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                    href="{{ route('login-renter') }}"><b>Log In</b></a></li>
+                            <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                    href="{{ route('register-renter') }}"><b>Sign Up</b></a></li>
 
-                    </ul>
+                        </ul>
                     @endif
                 </div>
             </nav>
@@ -117,13 +118,13 @@
 
 
         <!-- ================ start banner form ================= -->
-        <form action="{{ route('flat-list') }}" method="get" class="form-search form-search-position">
+        <form action="{{ route('index2') }}" method="get" class="form-search form-search-position">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 gutters-19">
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Enter your Preferred Location.."
-                                required>
+                            <input class="form-control" type="text" name="search_keyword"
+                                placeholder="Enter your Preferred Location.." required>
                         </div>
                     </div>
 
@@ -221,48 +222,47 @@
                 </div>
 
                 <div class="row">
-                    
-                      @foreach ($flats as $flat) 
-                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <div class="card card-explore">
-                            <div class="card-explore__img">
-                                <img class="card-img" src="/files/{{$flat->image}}" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-explore__price">৳{{$flat->rent}}<sub>/ Per Month</sub></h3>
-                                <h4 class="card-explore__title"><a href="#">{{$flat->flat_name}}</a></h4>
-                                <div class="row">
-                                    <a href="{{$flat->location_link}}"
-                                        target="_blank">
-                                        <img style="height:20px; width:20px; margin-left:10px"
-                                            src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
 
-
-                                    </a>
-                                    <h6 style="margin-left:5px;">{{$flat->area}}, {{$flat->division}}</h6>
+                    @foreach ($flats as $flat)
+                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <div class="card card-explore">
+                                <div class="card-explore__img">
+                                    <img class="card-img" src="/files/{{ $flat->image }}" alt="">
                                 </div>
+                                <div class="card-body">
+                                    <h3 class="card-explore__price">৳{{ $flat->rent }}<sub>/ Per Month</sub></h3>
+                                    <h4 class="card-explore__title"><a href="#">{{ $flat->flat_name }}</a></h4>
+                                    <div class="row">
+                                        <a href="{{ $flat->location_link }}" target="_blank">
+                                            <img style="height:20px; width:20px; margin-left:10px"
+                                                src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png">
 
-                                <p>{{$flat->details}}
-                                    <!--<ul>
+
+                                        </a>
+                                        <h6 style="margin-left:5px;">{{ $flat->area }}, {{ $flat->division }}</h6>
+                                    </div>
+
+                                    <p>{{ $flat->details }}
+                                        <!--<ul>
                     <li><img src="img/home/size.png" alt="size-icon"> 1100 sqft</li>
                     <li><img src="img/home/bed.png" alt="size-icon"> 3 beds</li>
                     <li><img src="img/home/bath.png" alt="size-icon"> 4 baths</li>
                   </ul>-->
-                                </p>
-                                <a class="card-explore__link" href="{{ route('room-details3',['flat_id'=>$flat->id]) }}">View Details <i
-                                        class="ti-arrow-right"></i></a>
+                                    </p>
+                                    <a class="card-explore__link"
+                                        href="{{ route('room-details3', ['flat_id' => $flat->id]) }}">View Details <i
+                                            class="ti-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
- 
-                     @endforeach
+                    @endforeach
 
-                    
-                
 
-                    
-                   
-                   
+
+
+
+
+
                 </div>
             </div>
         </section>
