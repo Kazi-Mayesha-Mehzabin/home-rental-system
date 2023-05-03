@@ -69,7 +69,7 @@
                                 <td>
                                     <div class="row align-items-center" >
                                         <div class="row mb-5 mr-2 align-items-end justify-content-end">
-                                            <i style="margin-right:20px;" class="fa fa-trash"></i>
+                                           <a onclick="return confirm('Are you sure?')" href="{{ route('delete-flat', ['flat_id' => $flat->id]) }}" ><i style="margin-right:20px;" class="fa fa-trash"></i></a>
                                         </div>
                                         <div class="row mb-5 mr-2 align-items-end justify-content-end">
                                             <i style="margin-right:0px;" class="fa fa-edit"></i>

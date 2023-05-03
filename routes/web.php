@@ -45,6 +45,8 @@ Route::post('/save-flat', [HomepageController:: class, 'saveFlat'] )-> name("sav
 Route::post('/booked-flat', [HomepageController:: class, 'saveBookedFlats'] )-> name("booked-flat");
 Route::get('/login-owner', [HomepageController:: class, 'loginOwner'] )-> name("login-owner");
 Route::get('/login-renter', [HomepageController:: class, 'loginRenter'] )-> name("login-renter");
+Route::get('/delete-flat', [HomepageController:: class, 'deleteFlat'] )-> name("delete-flat");
+
 
 
 Route::get('/add-flat', [HomepageController:: class, 'goToAddFlat'] )-> name("add-flat");

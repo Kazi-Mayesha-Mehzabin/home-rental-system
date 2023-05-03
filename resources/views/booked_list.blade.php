@@ -63,7 +63,7 @@
                                     {{ $flat->available_date }}
                                 </td>
                                 <td>
-                                    
+                                    {{ $flat->status??'Available' }} 
                                 </td>
 
 

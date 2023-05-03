@@ -34,19 +34,20 @@
                         <div class="row no-gutters welcome-images">
                             <div class="col-sm-7">
                                 <div class="card">
-                                    <img style="height:500px; width:500px" class="" src="/files/{{ $flat->image }}" alt="Card image cap">
+                                    <img style="height:500px; width:500px" class=""
+                                        src="/files/{{ $flat->image }}" alt="Card image cap">
                                 </div>
                             </div>
-                           
+
                             <div class="col-lg-12">
                                 <div class="card">
-                                    
-                                       
+
+
 
                                 </div>
                                 <div style="margin-top:20px;">
 
-                                    <p>{{$flat->details}}
+                                    <p>{{ $flat->details }}
                                     </p>
                                 </div>
                             </div>
@@ -55,20 +56,28 @@
                     <div class="col-lg-7">
                         <div class="welcome-content">
                             <h2 class="mb-4"><span class="d-block">Details</span></h2>
-                            <p style="font-size:20px;">Name: {{$flat->flat_name}}</p>
-                            <p style="font-size:20px;">Location: {{$flat->area}} </p>
-                            <p style="font-size:20px;">Room(s): {{$flat->room_num}}</p>
-                            <p style="font-size:20px;">Bathroom(s): {{$flat->bathroom_num}}</p>
-                            <p style="font-size:20px;">Specification:  {{$flat->house_length}} sq(feet)</p>
-                            <p style="font-size:20px;">Lift: {{$flat->lift}}</p>
-                            <p style="font-size:20px;">Floor: {{$flat->floor_num}}</p>
-                            <p style="font-size:20px;">Rent: ৳ {{$flat->rent}}</p>
-                            <p style="font-size:20px;">Servicing-Charge: ৳{{$flat->charge}}</p>
+                            <p style="font-size:20px;">Name: {{ $flat->flat_name }}</p>
+                            <p style="font-size:20px;">Location: {{ $flat->area }} </p>
+                            <p style="font-size:20px;">Room(s): {{ $flat->room_num }}</p>
+                            <p style="font-size:20px;">Bathroom(s): {{ $flat->bathroom_num }}</p>
+                            <p style="font-size:20px;">Specification: {{ $flat->house_length }} sq(feet)</p>
+                            <p style="font-size:20px;">Lift: {{ $flat->lift }}</p>
+                            <p style="font-size:20px;">Floor: {{ $flat->floor_num }}</p>
+                            <p style="font-size:20px;">Rent: ৳ {{ $flat->rent }}</p>
+                            <p style="font-size:20px;">Servicing-Charge: ৳{{ $flat->charge }}</p>
+                            <p style="font-size:20px;">Status: {{ $booked }}</p>
 
 
-                            <a class="button button--active home-banner-btn mt-4" href="tel:01747897071"  target="_blank">Call Now</a>
-                            <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
-                                href="{{ route('payment',['flat_id'=>$flat->id]) }}"  target="_blank">Book Now</a>
+                            <a class="button button--active home-banner-btn mt-4" href="tel:01747897071"
+                                target="_blank">Call Now</a>
+                            @if ($booked == 'Available')
+                                <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
+                                    href="{{ route('payment', ['flat_id' => $flat->id]) }}" target="_blank">Book Now</a>
+                            @else
+                                <a style="margin-left:15px; color:#ffffff;"
+                                    class="button button--active home-banner-btn mt-4">Unavailable</a>
+                            @endif
+
                         </div>
                     </div>
                 </div>

@@ -97,12 +97,23 @@ class HomepageController extends Controller
     }
     public function bookedFlatListPage(Request $request){
         
+        $data = json_decode(Storage::get('data2.json'), true);
+        if(isset($data)) $ownerId = $data['owner_id'];
         $flats = DB::table('flats') 
+        ->where('owner_id','=',$ownerId)
         ->get();
-        $book = DB::table('booking_flats') 
+        $bookingFlats = DB::table('booking_flats') 
         ->get();
+        foreach ($flats as $flat) {
+            foreach ($bookingFlats as $book) {
+                if ($book->flat_id == $flat->id) {
+                    $flat->status = 'booked'; // change the status of the matched flat
+                }
+                      
+            }
+        }
 
-        return view ('booked_list',['book'=>$book,'flats'=>$flats]);
+        return view ('booked_list',['book'=>$bookingFlats,'flats'=>$flats]);
         
 
        }
@@ -113,7 +124,18 @@ class HomepageController extends Controller
         $flat = DB::table('flats')
         ->where ('id','=',$flatId)
         ->first();
-        return view ('room_details3',['flat'=>$flat]);
+        $booked_flat= DB::table('booking_flats')
+        ->where ('flat_id','=',$flatId)
+        ->first();
+        $isBooked = 'Available';
+        if(isset($booked_flat)){
+
+             $isBooked = 'Booked'; 
+        }
+        else{
+            $isBooked = 'Available';
+        }
+        return view ('room_details3',['flat'=>$flat,'booked'=>$isBooked]);
     }
     public function goToBookingPage(){
         return view ('bookNow');
@@ -197,6 +219,8 @@ class HomepageController extends Controller
 
        if($owner)
        {
+        $data = ['owner_id' =>$owner->id];
+        Storage::put('data2.json', json_encode($data));
          $flats = DB::table('flats')
         ->where ('owner_id','=',$owner->id)
         ->get();
@@ -211,7 +235,17 @@ class HomepageController extends Controller
    
     
     public function goToOwnerDashboard(){
-        return view ('owner-dashboard');
+        $data = json_decode(Storage::get('data2.json'), true);
+        if(isset($data)) $ownerId = $data['owner_id'];
+        $flats = DB::table('flats')
+        ->where ('owner_id','=',$ownerId)
+        ->get();
+        $owner = DB::table('owner')
+        ->where ('id','=',$ownerId)
+        ->first();
+        
+        return view ('owner-dashboard',['owner'=>$owner, 'flats'=>$flats]);
+
     }
     
 
@@ -283,18 +317,16 @@ class HomepageController extends Controller
         } 
         $book->save();
         return  redirect()->route('index2');
+       
 
-
-        
-       
-        
-       
- 
-       
-  
-       
- 
      }
+     public function deleteFlat(Request $request){
+
+        $flat = DB::table('flats')
+        ->where ('id','=',$request->flat_id)
+        ->delete();
+        return  redirect()->route('owner-dashboard');
+    }
 
        
        
