@@ -23,13 +23,14 @@ Route::get('/Mayesha', function () {
 Route::get('/', [HomepageController:: class, 'viewIndexPage'] ) -> name("index2");
 Route::get('/index', [HomepageController:: class, 'viewIndexPage'] );
 Route::get('/login2', [HomepageController:: class, 'goToLoginPage'] );
-Route::get('/registration-owner', [HomepageController:: class, 'goToOwnerRegistrationPage'] );
+Route::get('/registration-owner', [HomepageController:: class, 'goToOwnerRegistrationPage'] )->name("register-owner");
 Route::get('/registration-renter', [HomepageController:: class, 'goToRenterRegistrationPage'] )->name("register-renter");
 Route::get('/login-renter', [HomepageController:: class, 'goToRenterLoginPage'] )->name("login-renter");
 Route::get('/login-owner', [HomepageController:: class, 'goToOwnerLoginPage'] );
 Route::get('/logout-renter', [HomepageController:: class, 'goToLogOutPage'] )->name('logout-renter');
 
 Route::get('/room-details3', [HomepageController:: class, 'goToDetailsPage3'] )-> name("room-details3");
+Route::get('/booked-list', [HomepageController:: class, 'bookedFlatListPage'] )-> name("booked-list");
 
 Route::get('/bookNow', [HomepageController:: class, 'goToBookingPage'] )-> name("bookNow");
 Route::get('/call-now', [HomepageController:: class, 'goToCallingPage'] )-> name("callNow");

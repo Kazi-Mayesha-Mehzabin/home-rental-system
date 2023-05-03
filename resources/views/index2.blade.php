@@ -80,6 +80,12 @@
                                     href="{{ route('login-renter') }}"><b>Log In</b></a></li>
                             <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
                                     href="{{ route('register-renter') }}"><b>Sign Up</b></a></li>
+                            <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                    href="{{ route('login-owner') }}"><b>Login As Owner</b></a></li>
+                            <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                    href="{{ route('register-owner') }}"><b>Sign Up As Owner</b></a></li>
+
+
 
                         </ul>
                     @endif

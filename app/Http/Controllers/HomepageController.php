@@ -95,6 +95,19 @@ class HomepageController extends Controller
     public function goToDetailsPage2(){
         return view ('room_details2');
     }
+    public function bookedFlatListPage(Request $request){
+        
+        $flats = DB::table('flats') 
+        ->get();
+        $book = DB::table('booking_flats') 
+        ->get();
+
+        return view ('booked_list',['book'=>$book,'flats'=>$flats]);
+        
+
+       }
+
+    
     public function goToDetailsPage3(Request $request){
         $flatId = $request->flat_id; 
         $flat = DB::table('flats')
@@ -195,6 +208,7 @@ class HomepageController extends Controller
         return view ('login_owner');
        }
     }
+   
     
     public function goToOwnerDashboard(){
         return view ('owner-dashboard');
@@ -269,6 +283,7 @@ class HomepageController extends Controller
         } 
         $book->save();
         return  redirect()->route('index2');
+
 
         
        
