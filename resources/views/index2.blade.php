@@ -73,6 +73,8 @@
                             <li class="nav-item"><b>Hello, {{ $renter->name }}</b></li>
                             <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
                                     href="{{ route('logout-renter') }}"><b>Log Out</b></a></li>
+                                    <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
+                                    href="{{ route('renter-dashboard') }}"><b>View Dashboard</b></a></li>
                         </ul>
                     @else
                         <ul class="nav navbar-nav menu_nav">
@@ -81,9 +83,10 @@
                             <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
                                     href="{{ route('register-renter') }}"><b>Sign Up</b></a></li>
                             <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
-                                    href="{{ route('login-owner') }}"><b>Login As Owner</b></a></li>
-                            <li class="nav-item"><a style="color:#0276EA;" class="nav-link"
-                                    href="{{ route('register-owner') }}"><b>Sign Up As Owner</b></a></li>
+                                    href="{{ route('login-owner') }}"><b>Owner</b></a></li>
+                            
+                                  
+</li>
 
 
 
@@ -139,14 +142,14 @@
                     <div class="col-sm gutters-19">
                         <div class="form-group">
                             <div class="form-select-custom">
-                                <select name="" id="">
-                                    <option value="" disabled selected>Price Range</option>
-                                    <option value="8 AM">5K-15K</option>
-                                    <option value="12 PM">16K-25K</option>
-                                    <option value="8 AM">26K-35K</option>
-                                    <option value="12 PM">36K-45K</option>
-                                    <option value="8 AM">46K-50K</option>
-                                    <option value="12 PM">51K & Above</option>
+                                <select name="rent" id="">
+                                    <option value="" disabled selected>Rent Range</option>
+                                    <option value="5-15">5K-15K</option>
+                                    <option value="16-25">16K-25K</option>
+                                    <option value="26-35">26K-35K</option>
+                                    <option value="36-45">36K-45K</option>
+                                    <option value="46-50">46K-50K</option>
+                                    <option value="51">51K & Above</option>
                                 </select>
                             </div>
                         </div>
@@ -154,13 +157,13 @@
                     <div class="col-sm gutters-19">
                         <div class="form-group">
                             <div class="form-select-custom">
-                                <select name="" id="">
+                                <select name="rooms" id="">
                                     <option value="" disabled selected>Minimum number of Beds</option>
-                                    <option value="8 AM">1 Bed</option>
-                                    <option value="12 PM">2 Beds</option>
-                                    <option value="12 PM">3 Beds</option>
-                                    <option value="12 PM">4 Beds</option>
-                                    <option value="12 PM">5 Beds</option>
+                                    <option value="1">1 Rooms</option>
+                                    <option value="2">2 Rooms</option>
+                                    <option value="3">3 Rooms</option>
+                                    <option value="4">4 Rooms</option>
+                                    <option value="5">5 Rooms</option>
                                 </select>
                             </div>
                         </div>

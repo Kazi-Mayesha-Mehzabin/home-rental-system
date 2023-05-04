@@ -28,7 +28,11 @@
 <body>
     <section class="ftco-section">
         <div class="container">
-            <h2>Hello, {{ $owner->name ?? '' }} . Welcome to your dashboard.</h2>
+            <h2><b>Personal Details</b></h2>
+            <h2>Name: {{$renter->name}}</h2>
+            <h2>Profession: {{$renter->profession}}</h2>
+            <h2>Phone Number: {{$renter->phone_num}}</h2>
+          
             <div class="card-body table-full-width table-responsive">
                 <table class="table table-hover table-striped">
                     <thead style="background-color: #01C531;">
@@ -38,45 +42,32 @@
                         <th style="color: #000000;">Address</th>
                         <th style="color: #000000;">Rent</th>
                         <th style="color: #000000;">Available Date</th>
-                        <th style="color: #000000;">Action</th>
                         
-
-
-
-
+                        
                     </thead>
                     <tbody>
                         @foreach ($flats as $flat)
+                      
                             <tr>
                                 <td>
-                                    <img style="height:100px; width:100px;"src="/files/{{ $flat->image }}"> </img>
+                                 <img style="height:100px; width:100px;"src="/files/{{$flat[0]->image}}"> </img>
 
                                 </td>
                                 <td>
-                                    {{ $flat->flat_name }}
+                                    {{ $flat[0]->flat_name }}
                                 </td>
                                 <td>
-                                    {{ $flat->area }}
+                                    {{ $flat[0]->area }}
                                 </td>
 
                                 <td>
-                                    {{ $flat->rent }}
+                                    {{ $flat[0]->rent }}
                                 </td>
 
                                 <td>
-                                    {{ $flat->available_date }}
+                                    {{ $flat[0]->available_date }}
                                 </td>
-                                <td>
-                                    <div class="row align-items-center" >
-                                        <div class="row mb-5 mr-2 align-items-end justify-content-end">
-                                           <a onclick="return confirm('Are you sure?')" href="{{ route('delete-flat', ['flat_id' => $flat->id]) }}" ><i style="margin-right:20px;" class="fa fa-trash"></i></a>
-                                        </div>
-                                        <div class="row mb-5 mr-2 align-items-end justify-content-end">
-                                            <i style="margin-right:0px;" class="fa fa-edit"></i> 
-                                        </div>
-
-                                    </div>
-                                </td>
+                               
 
 
                             </tr>
@@ -84,17 +75,9 @@
                     </tbody>
                 </table>
             </div>
-            <div class="row mb-5 mr-2 align-items-end justify-content-end">
-                <a href=" {{ route('add-flat', ['owner_id' => $owner->id]) }}"><button type="button"
-                        class="btn btn-primary">
-                        Add New
-                    </button></a>
-            </div>
+            
              <div class="row mb-5 mr-2 align-items-center justify-content-right-end">
-                <a href=" {{ route('booked-list', ['owner_id' => $owner->id]) }}"><button type="button"
-                        class="btn btn-primary">
-                        View Booked Flats
-                    </button></a>
+                
             </div>
 
 

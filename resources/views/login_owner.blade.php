@@ -57,6 +57,8 @@
               <input type="submit" value="Log In" class="btn btn-block btn-primary">
 
             </form>
+            <a href="{{route('register-owner')}}" style="background-color:#ffffff;margin-top:20px;padding-top:15px;"class="btn btn-block">Don't have an account? <b>Sign Up</b></a>
+
           
 
             

@@ -37,7 +37,7 @@ Route::get('/call-now', [HomepageController:: class, 'goToCallingPage'] )-> name
 Route::get('/flat-list', [HomepageController:: class, 'goToFlatListPage'] )-> name("flat-list");
 Route::get('/payment', [HomepageController:: class, 'goToPaymentPage'] )-> name("payment");
 Route::get('/owner-dashboard', [HomepageController:: class, 'goToOwnerDashboard'] )-> name("owner-dashboard");
-
+Route::get('/renter-dashboard', [HomepageController:: class, 'goToRenterDashboard'] )-> name("renter-dashboard");
 
 Route::get('/save-owner', [HomepageController:: class, 'saveOwner'] )-> name("save-owner");
 Route::get('/save-renter', [HomepageController:: class, 'saveRenter'] )-> name("save-renter");
