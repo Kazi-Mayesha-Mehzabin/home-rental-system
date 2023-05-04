@@ -37,82 +37,85 @@
 
                             <div class="form-group first">
                                 <label for="flat-name">Flat Name</label>
-                                <input type="text" class="form-control" placeholder="" id="flat-name"
-                                    name="flat_name">
+                                <input value="{{ $flat->flat_name ?? '' }}" type="text" class="form-control"
+                                    placeholder="" id="flat-name" name="flat_name">
                             </div>
                             <div class="form-group first">
                                 <label for="house">Flat No.</label>
-                                <input type="text" class="form-control" placeholder="" id="house" name="flat_no">
+                                <input value="{{ $flat->flat_no ?? '' }}" type="text" class="form-control"
+                                    placeholder="" id="house" name="flat_no">
                             </div>
                             <div class="form-group first">
                                 <label for="road">Road No.</label>
-                                <input type="text" class="form-control" placeholder="" id="road" name="road_no">
+                                <input value="{{ $flat->road_no ?? '' }}" type="text" class="form-control"
+                                    placeholder="" id="road" name="road_no">
                             </div>
                             <div class="form-group first">
                                 <label for="area">Area</label>
-                                <input type="text" class="form-control" placeholder="" id="area" name="area">
+                                <input value="{{ $flat->area ?? '' }}" type="text" class="form-control" placeholder=""
+                                    id="area" name="area">
                             </div>
                             <div class="form-group first">
                                 <label for="division">Division</label>
-                                <input type="text" class="form-control" placeholder="" id="division"
-                                    name="division">
+                                <input value="{{ $flat->division ?? '' }}" type="text" class="form-control"
+                                    placeholder="" id="division" name="division">
                             </div>
-                            <!--<div class="form-group first">
-                <label for="details">Detailed Address</label>
-                <textarea class="form-control" placeholder="" name="details" rows="3" cols="50"></textarea>
-              </div>-->
+
                             <div class="form-group first">
                                 <label for="rent">Rent</label>
-                                <input type="number" class="form-control" placeholder="" id="rent" name="rent">
+                                <input value="{{ $flat->rent ?? '' }}" type="number" class="form-control" placeholder=""
+                                    id="rent" name="rent">
                             </div>
                             <input type="hidden" value="{{ request('owner_id') }}" class="form-control" placeholder=""
                                 id="rent" name="owner_id">
+                            <input type="hidden" value="{{ $flat->id ?? '' }}" class="form-control" placeholder=""
+                                id="rent" name="id">
                             <div class="form-group first">
                                 <label for="date">Available Date</label>
-                                <input type="date" class="form-control" value="" id="date"
-                                    name="available_date">
+                                <input value="{{ $flat->available_date ?? '' }}" type="date" class="form-control"
+                                    value="" id="date" name="available_date">
                             </div>
 
                             <div class="form-group first">
                                 <label for="division">Floor Number</label>
-                                <input type="text" class="form-control" placeholder="" id="division"
-                                    name="floor_num">
+                                <input value="{{ $flat->floor_num ?? '' }}" available_datetype="text"
+                                    class="form-control" placeholder="" id="division" name="floor_num">
                             </div>
                             <div class="form-group first">
                                 <label for="rent">Number of Room(s)</label>
-                                <input type="number" class="form-control" placeholder="" id="rent"
-                                    name="room_num">
+                                <input value="{{ $flat->room_num ?? '' }}" type="number" class="form-control"
+                                    placeholder="" id="rent" name="room_num">
                             </div>
                             <div class="form-group first">
                                 <label for="rent">Number of Bathroom(s)</label>
-                                <input type="number" class="form-control" placeholder="" id="rent"
-                                    name="bathroom_num">
+                                <input value="{{ $flat->bathroom_num ?? '' }}" type="number" class="form-control"
+                                    placeholder="" id="rent" name="bathroom_num">
                             </div>
                             <div class="form-group first">
                                 <label for="rent">(Sq)Feet</label>
-                                <input type="number" class="form-control" placeholder="" id="rent"
-                                    name="house_length">
+                                <input value="{{ $flat->house_length ?? '' }}" type="number" class="form-control"
+                                    placeholder="" id="rent" name="house_length">
                             </div>
                             <div class="form-group first">
                                 <label for="division">Availability of Lift</label>
-                                <input type="text" class="form-control" placeholder="" id="division"
-                                    name="lift">
+                                <input value="{{ $flat->lift ?? '' }}" type="text" class="form-control"
+                                    placeholder="" id="division" name="lift">
                             </div>
                             <div class="form-group first">
                                 <label for="rent">Service Charge</label>
-                                <input type="number" class="form-control" placeholder="" id="rent"
-                                    name="charge">
+                                <input value="{{ $flat->charge ?? '' }}" type="number" class="form-control"
+                                    placeholder="" id="rent" name="charge">
                             </div>
 
                             <div class="form-group first">
                                 <label for="division">Details</label>
-                                <input type="text" class="form-control" placeholder="" id="division"
-                                    name="details">
+                                <input value="{{ $flat->details ?? '' }}"type="text" class="form-control"
+                                    placeholder="" id="division" name="details">
                             </div>
                             <div class="form-group first">
                                 <label for="division">Location Link</label>
-                                <input type="text" class="form-control" placeholder="" id="division"
-                                    name="location_link">
+                                <input value="{{ $flat->location_link ?? '' }}" type="text" class="form-control"
+                                    placeholder="" id="division" name="location_link">
                             </div>
                             <div class="form-group last mb-3">
                                 <label for="image" class="file">Add Images</label>
@@ -120,7 +123,11 @@
                                 <input type="file" class="form-control" accept="image/*" id="image"
                                     name="image">
                             </div>
-                            <input type="submit" value="Add New Flat" class="btn btn-block btn-success">
+                            @if (isset($flat))
+                                <input type="submit" value="Update Flat" class="btn btn-block btn-success">
+                            @else
+                                <input type="submit" value="Add New Flat" class="btn btn-block btn-success">
+                            @endif
                         </form>
 
 

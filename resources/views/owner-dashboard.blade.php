@@ -27,8 +27,16 @@
 
 <body>
     <section class="ftco-section">
-        <div class="container">
-            <h2>Hello, {{ $owner->name ?? '' }} . Welcome to your dashboard.</h2>
+        <div style="padding-top:50px;" class="container">
+            <h2 >Hello, {{ $owner->name ?? '' }} . Welcome to your dashboard.</h2>
+             <div class="row mb-5 mr-2 align-items-end justify-content-end">
+           
+                <a href=" {{ route('logout')}}"><button type="button"
+                        class="btn">
+                      Logout
+                    </button></a>
+            </div>
+           
             <div class="card-body table-full-width table-responsive">
                 <table class="table table-hover table-striped">
                     <thead style="background-color: #01C531;">
@@ -72,7 +80,7 @@
                                            <a onclick="return confirm('Are you sure?')" href="{{ route('delete-flat', ['flat_id' => $flat->id]) }}" ><i style="margin-right:20px;" class="fa fa-trash"></i></a>
                                         </div>
                                         <div class="row mb-5 mr-2 align-items-end justify-content-end">
-                                            <i style="margin-right:0px;" class="fa fa-edit"></i> 
+                                           <a href="{{ route('update-flat', ['flat_id' => $flat->id,'owner_id'=>$flat->owner_id]) }}" > <i style="margin-right:0px;" class="fa fa-edit"></i></a>
                                         </div>
 
                                     </div>
@@ -85,16 +93,17 @@
                 </table>
             </div>
             <div class="row mb-5 mr-2 align-items-end justify-content-end">
+            <a style="margin-right:20px;" href=" {{ route('booked-list', ['owner_id' => $owner->id]) }}"><button type="button"
+                        class="btn btn-primary">
+                        View Booked Flats
+                    </button></a>
                 <a href=" {{ route('add-flat', ['owner_id' => $owner->id]) }}"><button type="button"
                         class="btn btn-primary">
                         Add New
                     </button></a>
             </div>
              <div class="row mb-5 mr-2 align-items-center justify-content-right-end">
-                <a href=" {{ route('booked-list', ['owner_id' => $owner->id]) }}"><button type="button"
-                        class="btn btn-primary">
-                        View Booked Flats
-                    </button></a>
+                
             </div>
 
 

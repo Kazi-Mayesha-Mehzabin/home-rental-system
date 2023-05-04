@@ -307,6 +307,7 @@ class HomepageController extends Controller
 
     public function saveFlat(Request $request)
     {
+        if(!isset($request->id)){
 
         $flat = new Flat();
         $flat->owner_id = $request->owner_id;
@@ -337,6 +338,40 @@ class HomepageController extends Controller
 
 
         $flat->save();
+    }
+    else{
+        $flat = $request->id ? Flat::findOrFail($request->id) : new Flat();
+        
+        $flat->owner_id = $request->owner_id;
+        $flat->flat_name = $request->flat_name;
+        $flat->flat_no = $request->flat_no;
+        $flat->road_no = $request->road_no;
+        $flat->division = $request->division;
+        $flat->rent = $request->rent;
+        $flat->area = $request->area;
+        $flat->available_date = $request->available_date;
+        $flat->room_num = $request->room_num;
+        $flat->bathroom_num = $request->bathroom_num;
+        $flat->lift = $request->lift;
+        $flat->details = $request->details;
+        $flat->house_length = $request->house_length;
+        $flat->floor_num = $request->floor_num;
+        $flat->charge = $request->charge;
+        $flat->location_link = $request->location_link;
+
+
+        if ($request->file('image')) {
+            $file = $request->file('image');
+            $filename = time() . '_' . $file->getClientOriginalName();
+            $location = 'files';
+            $file->move($location, $filename);
+            $flat->image = $filename;
+        }
+
+
+        $flat->save();
+
+    }
         $owner = DB::table('owner')
             ->where('id', '=', $request->owner_id)
             ->first();
@@ -375,4 +410,24 @@ class HomepageController extends Controller
             ->delete();
         return  redirect()->route('owner-dashboard');
     }
+    public function updateFlat(Request $request)
+    {
+       
+        $flat = DB::table('flats')
+            ->where('id', '=', $request->flat_id)
+            ->first();
+        return  view('add_flat',['flat' => $flat]);
+    }
+    public function toContactPage()
+    {
+        return  view ('contact');
+    }
+    public function goToOwnerLogoutPage()
+    {
+        $data = ['owner_id' => ''];
+        Storage::put('data2.json', json_encode($data));
+        return   redirect()->route('index2');
+    }
+    
+    
 }
