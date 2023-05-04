@@ -61,7 +61,7 @@
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav">
                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#aboutHomeRent">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="properties.html">Flats</a></li>
 
 
@@ -184,7 +184,7 @@
         <!-- ================ welcome section start ================= -->
         <section class="welcome">
             <div class="container">
-                <div class="row align-items-center">
+                <div id = "aboutHomeRent" class="row align-items-center">
                     <div class="col-lg-5 mb-4 mb-lg-0">
                         <div class="row no-gutters welcome-images">
                             <div class="col-sm-7">
