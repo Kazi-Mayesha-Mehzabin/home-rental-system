@@ -60,7 +60,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#homee">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#aboutHomeRent">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="#flats">Flats</a></li>
 
@@ -113,7 +113,7 @@
 
         <!-- ================ start banner area ================= -->
         <section class="home-banner-area" id="home">
-            <div class="container h-100">
+            <div id="homee" class="container h-100">
                 <div class="home-banner">
                     <div class="text-center">
                         <h4>Find your perfect place to call home</h4>
