@@ -74,7 +74,7 @@
                                 <a style="margin-left:15px;" class="button button--active home-banner-btn mt-4"
                                     href="{{ route('payment', ['flat_id' => $flat->id]) }}" target="_blank">Book Now</a>
                             @else
-                                <a style="margin-left:15px; color:#ffffff;"
+                                <a style="margin-left:15px; color:#ffffff;background-color:#FF0000"
                                     class="button button--active home-banner-btn mt-4">Unavailable</a>
                             @endif
 
