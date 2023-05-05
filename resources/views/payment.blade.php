@@ -343,7 +343,7 @@ input[type="radio"] {
             <div class="box-inner-1 pb-3 mb-3 ">
                 <div class="d-flex justify-content-between mb-3 userdetails">
                     
-                    <p ><span ></span> <b>Payable:</b> BDT 20,000</p>
+                    
                 </div>
                 <div id="my" class="carousel slide carousel-fade img-details" data-bs-ride="carousel"
                     data-bs-interval="2000">

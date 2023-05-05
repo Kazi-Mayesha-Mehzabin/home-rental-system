@@ -15,12 +15,13 @@
 	<body>
 	<section class="ftco-section">
 		<div class="container">
+		
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Contact Us</h2>
+					<h2 style="margin-top:60px;" class="heading-section">Contact Us</h2>
 				</div>
 			</div>
-			<div class="row justify-content-center">
+			<div class="row justify-content-center" style="margin-top:50px;">
 				<div class="col-lg-10 col-md-12">
 					<div class="wrapper">
 						<div class="row justify-content-center">
@@ -32,7 +33,7 @@
 					        			<span class="fa fa-map-marker"></span>
 					        		</div>
 					        		<div class="text">
-						            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+						            <p><span>Address:</span> 138 West 21th Street, Gulshan,2 Dhaka, 1212</p>
 						          </div>
 					          </div>
 									</div>
@@ -42,7 +43,7 @@
 					        			<span class="fa fa-phone"></span>
 					        		</div>
 					        		<div class="text">
-						            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+						            <p><span>Phone:</span> <a href="tel:730798//">02-730798</a></p>
 						          </div>
 					          </div>
 									</div>
@@ -52,7 +53,7 @@
 					        			<span class="fa fa-paper-plane"></span>
 					        		</div>
 					        		<div class="text">
-						            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+						            <p><span>Email:</span> <a href="mailto:rentyourhome@gmail.com">rentyourhome@gmail.com</a></p>
 						          </div>
 					          </div>
 									</div>
@@ -60,39 +61,8 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="contact-wrap">
-									<h3 class="mb-4 text-center">Get in touch with us</h3>
 									<div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
-				      		<div id="form-message-success" class="mb-4 w-100 text-center">
-				            Your message was sent, thank you!
-				      		</div>
-									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
-										<div class="row">
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
-												</div>
-											</div>
-											<div class="col-md-12"> 
-												<div class="form-group">
-													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Message"></textarea>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn btn-primary">
-													<div class="submitting"></div>
-												</div>
-											</div>
+						
 										</div>
 									</form>
 								</div>

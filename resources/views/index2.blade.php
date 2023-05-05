@@ -62,7 +62,7 @@
                         <ul class="nav navbar-nav menu_nav">
                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#aboutHomeRent">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="properties.html">Flats</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#flats">Flats</a></li>
 
 
                             <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
@@ -230,10 +230,10 @@
                     <h2>Explore Our Featured Homes</h2>
                 </div>
 
-                <div class="row">
+                <div id="flats" class="row">
 
                     @foreach ($flats as $flat)
-                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0" style="margin-bottom: 40px !important;">
                             <div class="card card-explore">
                                 <div class="card-explore__img">
                                     <img class="card-img" src="/files/{{ $flat->image }}" alt="">
